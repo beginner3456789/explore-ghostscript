@@ -1,0 +1,210 @@
+
+<<
+ /CreateJobTicket    true
+
+ /EncodeGrayImages    true
+
+ /MonoImageDownsampleThreshold    1.5
+
+ /PDFEndPage    -1
+
+ /sRGBProfile    (None)
+
+ /PSPageOptions    []
+
+ /Binding    /Left
+
+ /DetectBlends    true
+
+ /PreserveEPSInfo    true
+
+ /GrayImageFilter    /DCTEncode
+
+ /GrayImageResolution    300
+
+ /ParseDSCCommentsForDocInfo    true
+
+ /AntiAliasGrayImages    false
+
+ /CompressPages    false
+
+ /UseFlateCompression    true
+
+ /ColorImageDepth    -1
+
+ /EncodeColorImages    true
+
+ /MonoImageDict 
+<<
+ /K    -1
+
+>>
+
+ /CoreDistVersion    5000
+
+ /CompatibilityLevel    1.4
+
+ /AutoPositionEPSFiles    true
+
+ /PreserveHalftoneInfo    false
+
+ /AutoRotatePages    /None
+
+ /DefaultRenderingIntent    /Default
+
+ /NeverEmbed    []
+
+ /GrayImageDownsampleThreshold    1.5
+
+ /GrayImageDownsampleType    /Average
+
+ /ParseDSCComments    true
+
+ /AntiAliasColorImages    false
+
+ /CalRGBProfile    (None)
+
+ /ColorConversionStrategy    /UseDeviceIndependentColor
+
+ /EmitDSCWarnings    false
+
+ /MonoImageDepth    -1
+
+ /LZWEncodePages    false
+
+ /PreserveCopyPage    true
+
+ /AutoFilterGrayImages    true
+
+ /ConvertImagesToIndexed    true
+
+ /GrayACSImageDict 
+<<
+ /QFactor    0.4
+
+ /HSamples    [1 1 1 1]
+
+ /ColorTransform    1
+
+ /Blend    1
+
+ /VSamples    [1 1 1 1]
+
+>>
+
+ /GrayImageDict 
+<<
+ /QFactor    0.9
+
+ /HSamples    [2 1 1 2]
+
+ /Blend    1
+
+ /VSamples    [2 1 1 2]
+
+>>
+
+ /ColorImageResolution    300
+
+ /Optimize    true
+
+ /AlwaysEmbed    []
+
+ /ConvertCMYKImagesToRGB    false
+
+ /TransferFunctionInfo    /Apply
+
+ /CalGrayProfile    (None)
+
+ /ColorACSImageDict 
+<<
+ /QFactor    0.4
+
+ /HSamples    [1 1 1 1]
+
+ /ColorTransform    1
+
+ /Blend    1
+
+ /VSamples    [1 1 1 1]
+
+>>
+
+ /DownsampleMonoImages    true
+
+ /UCRandBGInfo    /Preserve
+
+ /MaxSubsetPct    100
+
+ /MonoImageResolution    1200
+
+ /PDFXBleedBoxToTrimBoxOffset    [0.0 0.0 0.0 0.0]
+
+ /AutoFilterColorImages    true
+
+ /ColorImageFilter    /DCTEncode
+
+ /EmbedAllFonts    true
+
+ /GrayImageDepth    -1
+
+ /OffOptimizations    0
+
+ /SubsetFonts    true
+
+ /CalCMYKProfile    (None)
+
+ /DownsampleGrayImages    true
+
+ /PreserveOverprintSettings    true
+
+ /PDFXSetBleedBoxToMediaBox    true
+
+ /ASCII85EncodePages    false
+
+ /PassThroughJPEGImages    true
+
+ /ColorImageDownsampleThreshold    1.5
+
+ /DoThumbnails    false
+
+ /EncodeMonoImages    true
+
+ /ColorImageDownsampleType    /Average
+
+ /MonoImageFilter    /CCITTFaxEncode
+
+ /PDFStartPage    1
+
+ /OPM    0
+
+ /CannotEmbedFontPolicy    /Warning
+
+ /DownsampleColorImages    true
+
+ /PreserveOPIComments    true
+
+ /ImageMemory    524288
+
+ /MonoImageDownsampleType    /Subsample
+
+ /PDFXTrimBoxToMediaBoxOffset    [0.0 0.0 0.0 0.0]
+
+ /AntiAliasMonoImages    false
+
+ /UsePrologue    false
+
+ /ColorImageDict 
+<<
+ /QFactor    0.9
+
+ /HSamples    [2 1 1 2]
+
+ /Blend    1
+
+ /VSamples    [2 1 1 2]
+
+>>
+
+>>
+
