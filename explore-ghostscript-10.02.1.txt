@@ -1,0 +1,3742 @@
+GPL Ghostscript 10.02.1 (2023-11-01)
+Copyright (C) 2023 Artifex Software, Inc.  All rights reserved.
+This software is supplied under the GNU AGPLv3 and comes with NO WARRANTY:
+see the file COPYING for details.
+
+ ***** statusdict: *****
+
+     <<       % --dictionary-- 
+
+/setmargins    {--exch-- 2 --array-- --astore-- /Margins {--exch-- --mark-- 3 1 --roll-- --.dicttomark--} --exec-- setpagedevice}
+
+/papertray    1
+
+/diskstatus    --diskstatus--
+
+/hardwareiomode    0
+
+/buildtime    0
+
+/pagestackorder    {false}
+
+/setdefaultpapertray    {--pop--}
+
+/setduplexmode    {/Duplex {--exch-- --mark-- 3 1 --roll-- --.dicttomark--} --exec-- setpagedevice}
+
+/flsetray    -packedarray-
+
+/setpagemargin    {0 2 --array-- --astore-- /PageOffset {--exch-- --mark-- 3 1 --roll-- --.dicttomark--} --exec-- setpagedevice}
+
+/processcolors    --processcolors--
+
+/.password    0
+
+/manualfeed    false
+
+/setdosysstart    {--pop--}
+
+/.printername    (GPL Ghostscript)
+
+/a4tray    -packedarray-
+
+/jobtimeout    {/JobTimeout --getuserparam--}
+
+/paperfamily    0
+
+/setresolution    {--count-- 1 --lt-- {/setresolution --cvx-- /stackunderflow signalerror} --if-- --dup-- --type-- --dup-- /integertype --eq-- --exch-- /realtype --eq-- --or-- --not-- {/setresolution --cvx-- /typecheck signalerror} --if-- --dup-- 2 --array-- --astore-- /HWResolution {--exch-- --mark-- 3 1 --roll-- --.dicttomark--} --exec-- {setpagedevice} --stopped-- {--pop-- /setresolution --cvx-- $error /errorname --get-- signalerror} --if--}
+
+/ramsize    {/RamSize --getsystemparam--}
+
+/pagecount    {4711}
+
+/defaultpapertray    0
+
+/product    (GPL Ghostscript)
+
+/dostartpage    true
+
+/flsatray    -packedarray-
+
+/setpage    {ORIENT1 {1} {0} --ifelse-- --ne-- {--exch--} --if-- {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --exec--}
+
+/checkpassword    {--.checkpassword-- 0 --gt--}
+
+/waittimeout    {/WaitTimeout --getuserparam--}
+
+/jobname    {/JobName --getuserparam--}
+
+/dosysstart    false
+
+/realformat    (IEEE)
+
+/printername    {--currentsystemparams-- /PrinterName --.knownget-- --not-- {()} --if-- --exch-- --copy--}
+
+/a3tray    -packedarray-
+
+/setjobtimeout    {statusdict --exch-- /jobtimeout --exch-- --put--}
+
+/lettertray    -packedarray-
+
+/setprintername    {/PrinterName {--exch-- --mark-- 3 1 --roll-- --.dicttomark--} --exec-- --setsystemparams--}
+
+/.pagetypenames    [/11x17 /ANSI_A /ANSI_B /ANSI_C /ANSI_D /ANSI_E /ANSI_F /a0 /a1 /a10 /a2 /a3 /a4 /a4small /a5 /a6 /a7 /a8 /a9 /ansi_a /ansi_b /ansi_c /ansi_d /ansi_e /ansi_f /archA /archB /archC /archD /archE /archa /archb /archc /archd /arche /b0 /b1 /b2 /b3 /b4 /b5 /b6 /c0 /c1 /c2 /c3 /c4 /c5 /c6 /flsa /flse /hagaki /halfletter /isob0 /isob1 /isob2 /isob3 /isob4 /isob5 /isob6 /jisb0 /jisb1 /jisb2 /jisb3 /jisb4 /jisb5 /jisb6 /ledger /legal /letter /lettersmall /note /pa4 /tabloid]
+
+/.leftmargin    0
+
+/setdefaultpaperfamily    {--pop--}
+
+/setdostartpage    {statusdict --exch-- /dostartpage --exch-- --put--}
+
+/b5tray    -packedarray-
+
+/appletalktype    (LaserWriter)
+
+/settumble    {--pop--}
+
+/.idlefonts    []
+
+/setsoftwareiomode    {--pop--}
+
+/printererror    {--pop-- --pop--}
+
+/11x17tray    -packedarray-
+
+/setidlefonts    {--]-- statusdict --exch-- /.idlefonts --exch-- --put--}
+
+/legaltray    -packedarray-
+
+/setpassword    {--exch-- checkpassword {statusdict --exch-- /.password --exch-- --put-- true} {--pop-- false} --ifelse--}
+
+/diskonline    {false (%disk*%) {--pop-- --not-- --exit--} 8192 --string-- /IODevice resourceforall}
+
+/defaultpaperfamily    0
+
+/.topmargin    0
+
+/setdefaulttimeouts    {--exch-- --mark-- /ManualFeedTimeout 3 -1 --roll-- /Policies --mark-- /ManualFeedTimeout 1 --.dicttomark-- --.dicttomark-- setpagedevice /WaitTimeout --exch-- --mark-- /JobTimeout 5 2 --roll-- --.dicttomark-- --setsystemparams--}
+
+/b4tray    -packedarray-
+
+/pageparams    {currentpagedevice --dup-- /Orientation --.knownget-- {1 --and-- ORIENT1 {1 --xor--} --if--} {0} --ifelse-- --exch-- --dup-- /PageSize --get-- --aload-- --pop-- 3 --index-- 0 --ne-- {--exch--} --if-- 3 2 --roll-- /PageOffset --.knownget-- {0 --get--} {0} --ifelse-- 4 -1 --roll--}
+
+/trayswitch    false
+
+/setsccinteractive    {--pop-- --pop-- --pop--}
+
+/idlefonts    {statusdict --begin-- --mark-- .idlefonts --aload-- --pop-- --end--}
+
+/softwareiomode    0
+
+/prefeed    false
+
+/setdefaulttrayswitch    {--pop--}
+
+/seteescratch    {--pop-- --pop--}
+
+/ledgertray    -packedarray-
+
+/setpagetype    {statusdict --begin-- --dup-- --type-- /integertype --ne-- {/setpage --cvx-- /typecheck signalerror} {--dup-- 0 --ne-- 1 --index-- 1 --ne-- --or-- {/setpage --cvx-- /rangecheck signalerror} {{/letter /note} 1 --index-- --get-- -dict- /userdict --get-- --exch-- --get-- --cvx-- --exec--} --ifelse-- /pagetype --exch-- --def--} --ifelse-- --end--}
+
+/.timeouts    [0 60 30]
+
+/margins    {currentpagedevice /Margins --.knownget-- {--exch--} {--mark-- 0 0 --]--} --ifelse--}
+
+/setallowjobreset    {--pop--}
+
+/sccinteractive    {--pop-- 9600 0}
+
+/a6tray    -packedarray-
+
+/pagemargin    {currentpagedevice /PageOffset --.knownget-- {0 --get--} {0} --ifelse--}
+
+/setpapertray    {statusdict --exch-- /papertray --exch-- --put--}
+
+/setsccbatch    {--pop-- --pop-- --pop--}
+
+/eescratch    {--pop-- 0}
+
+/sethardwareiomode    {--pop--}
+
+/byteorder    true
+
+/.pagetypeprocs     <<       % --dictionary-- 
+
+/a8    {148 210 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a8 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_D    {1585 2448 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_D $error /errorname --get-- signalerror} --if--}
+
+/isob4    {709 1001 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob4 $error /errorname --get-- signalerror} --if--}
+
+/jisb5    {516 729 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb5 $error /errorname --get-- signalerror} --if--}
+
+/archC    {1296 1728 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archC $error /errorname --get-- signalerror} --if--}
+
+/a0    {2384 3370 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a0 $error /errorname --get-- signalerror} --if--}
+
+/pa4    {595 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /pa4 $error /errorname --get-- signalerror} --if--}
+
+/isob1    {2004 2835 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob1 $error /errorname --get-- signalerror} --if--}
+
+/ansi_c    {1224 1585 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_C $error /errorname --get-- signalerror} --if--}
+
+/b6    {354 499 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob6 $error /errorname --get-- signalerror} --if--}
+
+/c3    {918 1298 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c3 $error /errorname --get-- signalerror} --if--}
+
+/a4small    {595 842 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a4 $error /errorname --get-- signalerror} --if--}
+
+/archc    {1296 1728 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archC $error /errorname --get-- signalerror} --if--}
+
+/a7    {210 297 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a7 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_C    {1224 1585 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_C $error /errorname --get-- signalerror} --if--}
+
+/b3    {1001 1417 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob3 $error /errorname --get-- signalerror} --if--}
+
+/jisb4    {729 1032 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb4 $error /errorname --get-- signalerror} --if--}
+
+/archD    {1728 2592 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archD $error /errorname --get-- signalerror} --if--}
+
+/note    {612 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /letter $error /errorname --get-- signalerror} --if--}
+
+/halfletter    {396 612 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /halfletter $error /errorname --get-- signalerror} --if--}
+
+/b0    {2835 4008 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob0 $error /errorname --get-- signalerror} --if--}
+
+/ansi_b    {792 1224 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /11x17 $error /errorname --get-- signalerror} --if--}
+
+/isob6    {354 499 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob6 $error /errorname --get-- signalerror} --if--}
+
+/c2    {1298 1837 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c2 $error /errorname --get-- signalerror} --if--}
+
+/a4    {595 842 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a4 $error /errorname --get-- signalerror} --if--}
+
+/archb    {864 1296 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archB $error /errorname --get-- signalerror} --if--}
+
+/a6    {297 420 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a6 $error /errorname --get-- signalerror} --if--}
+
+/tabloid    {792 1224 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /11x17 $error /errorname --get-- signalerror} --if--}
+
+/isob3    {1001 1417 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob3 $error /errorname --get-- signalerror} --if--}
+
+/jisb3    {1032 1460 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb3 $error /errorname --get-- signalerror} --if--}
+
+/archE    {2592 3456 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archE $error /errorname --get-- signalerror} --if--}
+
+/lettersmall    {612 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /letter $error /errorname --get-- signalerror} --if--}
+
+/flse    {612 936 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /flse $error /errorname --get-- signalerror} --if--}
+
+/isob0    {2835 4008 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob0 $error /errorname --get-- signalerror} --if--}
+
+/ansi_a    {612 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /letter $error /errorname --get-- signalerror} --if--}
+
+/b5    {499 709 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob5 $error /errorname --get-- signalerror} --if--}
+
+/c1    {1837 2599 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c1 $error /errorname --get-- signalerror} --if--}
+
+/a3    {842 1191 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a3 $error /errorname --get-- signalerror} --if--}
+
+/archa    {648 864 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archA $error /errorname --get-- signalerror} --if--}
+
+/a5    {420 595 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a5 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_B    {792 1224 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /11x17 $error /errorname --get-- signalerror} --if--}
+
+/b2    {1417 2004 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob2 $error /errorname --get-- signalerror} --if--}
+
+/ansi_f    {2016 2880 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_F $error /errorname --get-- signalerror} --if--}
+
+/jisb2    {1460 2064 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb2 $error /errorname --get-- signalerror} --if--}
+
+/c6    {323 459 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c6 $error /errorname --get-- signalerror} --if--}
+
+/letter    {612 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /letter $error /errorname --get-- signalerror} --if--}
+
+/flsa    {612 936 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /flsa $error /errorname --get-- signalerror} --if--}
+
+/a10    {73 105 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a10 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_F    {2016 2880 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_F $error /errorname --get-- signalerror} --if--}
+
+/isob5    {499 709 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob5 $error /errorname --get-- signalerror} --if--}
+
+/c0    {2599 3677 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c0 $error /errorname --get-- signalerror} --if--}
+
+/11x17    {792 1224 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /11x17 $error /errorname --get-- signalerror} --if--}
+
+/archA    {648 864 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archA $error /errorname --get-- signalerror} --if--}
+
+/a2    {1191 1684 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a2 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_A    {612 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /letter $error /errorname --get-- signalerror} --if--}
+
+/isob2    {1417 2004 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob2 $error /errorname --get-- signalerror} --if--}
+
+/ansi_e    {2448 3168 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_E $error /errorname --get-- signalerror} --if--}
+
+/jisb1    {2064 2920 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb1 $error /errorname --get-- signalerror} --if--}
+
+/c5    {459 649 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c5 $error /errorname --get-- signalerror} --if--}
+
+/legal    {612 1008 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /legal $error /errorname --get-- signalerror} --if--}
+
+/arche    {2592 3456 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archE $error /errorname --get-- signalerror} --if--}
+
+/a9    {105 148 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a9 $error /errorname --get-- signalerror} --if--}
+
+/ANSI_E    {2448 3168 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_E $error /errorname --get-- signalerror} --if--}
+
+/b4    {709 1001 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob4 $error /errorname --get-- signalerror} --if--}
+
+/jisb6    {363 516 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb6 $error /errorname --get-- signalerror} --if--}
+
+/archB    {864 1296 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archB $error /errorname --get-- signalerror} --if--}
+
+/a1    {1684 2384 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /a1 $error /errorname --get-- signalerror} --if--}
+
+/hagaki    {283 420 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /hagaki $error /errorname --get-- signalerror} --if--}
+
+/b1    {2004 2835 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /isob1 $error /errorname --get-- signalerror} --if--}
+
+/ansi_d    {1585 2448 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ANSI_D $error /errorname --get-- signalerror} --if--}
+
+/jisb0    {2920 4127 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /jisb0 $error /errorname --get-- signalerror} --if--}
+
+/c4    {649 918 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /c4 $error /errorname --get-- signalerror} --if--}
+
+/ledger    {1224 792 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /ledger $error /errorname --get-- signalerror} --if--}
+
+/archd    {1728 2592 {2 --copy-- 2 --array-- --astore-- /PageSize --exch-- --mark-- 3 1 --roll-- --.dicttomark-- {setpagedevice} --stopped-- {--pop-- /setpagesize $error /errorname --get-- signalerror} {--pop-- --pop--} --ifelse--} --stopped-- {--pop-- --pop-- /archD $error /errorname --get-- signalerror} --if--}
+>>
+
+
+/defaulttrayswitch    false
+
+/pagetype    0
+
+/revision    10021
+
+/halflettertray    -packedarray-
+
+/setpageparams    {--mark-- /PageSize 6 -2 --roll-- 4 --index-- 1 --and-- ORIENT1 {1} {0} --ifelse-- --ne-- {--exch--} --if-- 2 --array-- --astore-- /Orientation 5 -1 --roll-- ORIENT1 {1 --xor--} --if-- /PageOffset --counttomark-- 2 --add-- -1 --roll-- 0 2 --array-- --astore-- --.dicttomark-- setpagedevice}
+
+/defaulttimeouts    {--currentsystemparams-- --dup-- /JobTimeout --.knownget-- --not-- {0} --if-- --exch-- /WaitTimeout --.knownget-- --not-- {0} --if-- currentpagedevice /ManualFeedTimeout --.knownget-- --not-- {0} --if--}
+
+/manualfeedtimeout    60
+
+/allowjobreset    true
+
+/sccbatch    {--pop-- 9600 0}
+
+/a5tray    -packedarray-
+>>
+
+
+ ***** serverdict: *****
+
+     <<       % --dictionary-- 
+
+/exitserver    {true --exch-- {.startnewjob} --.startjob-- --not-- {/exitserver --cvx-- /invalidaccess signalerror} --if--}
+
+/.jobsavelevel    0
+
+/execjob    {}
+
+/setrealdevice    {}
+
+/.jobsave    null
+
+/.adminjob    true
+>>
+
+
+ ***** systemdict: *****
+
+     <<       % --dictionary-- 
+
+/undefinefont    --undefinefont--
+
+/setcolorrendering    --setcolorrendering--
+
+/.loadfont    {true --.setloadingfont-- {/FAPI_hook_disable --pop-- {{.loadfontfile} .execasresource} --count-- 1 --sub-- 2 --.execn-- --count-- --exch-- --sub-- {--pop--} --repeat-- --exit--} --loop-- false --.setloadingfont--}
+
+/%.defaultbgrucrproc    {pop 0}
+
+/SystemParamsPassword    -string-
+
+/.defaultdevicename    (x11alpha)
+
+/defineresource    --defineresource--
+
+/%Type1BuildGlyph    -packedarray-
+
+/currentshared    --.currentglobal--
+
+/.loadingfont    false
+
+/.sethiresscreen    {.sethireshalftone {{--dup-- --dup-- 0.0 --gt-- --exch-- 1.0 --lt-- --and-- {0.8 --exp--} --if--}} {0 --array-- --cvx--} --ifelse-- --settransfer-- /setstrokeadjust --where-- {--pop-- false setstrokeadjust} --if-- 0.5 --dup-- --.setfilladjust2--}
+
+/StartJobPassword    -string-
+
+/defaultdevice    -device-
+
+/currentuserparams    --currentuserparams--
+
+/GlobalFontDirectory    -dict-
+
+/WRITEDICTS    false
+
+/%Type1BuildChar    -packedarray-
+
+/devicenames    [/necp6 /imagen /ap3250 /ink_cov /lp9300 /hpdj320 /tiffg32d /bmp16 /pngalpha /lp3000c /epl2750 /pnm /rinkj /lips4v /cdj890 /pdfimage24 /npdl /itk24i /appledmp /inkcov /lp9400 /hpdj340 /tiffg4 /bmp16m /pnggray /lp7500 /epl5800 /pnmraw /rpdl /lj250 /cdj970 /pdfimage32 /oce9050 /itk38 /atx23 /jpeg /lp9500c /hpdj400 /tiffgray /bmp256 /pngmono /lp7700 /epl5900 /ppm /samsunggdi /lj3100sw /cdjcolor /pdfimage8 /oki182 /iwhi /atx24 /jpegcmyk /lp9600 /hpdj500 /tifflzw /bmp32b /pngmonod /lp7900 /epl6100 /ppmraw /sj48 /lj4dith /cdjmono /pgm /oki4w /iwlo /atx38 /jpeggray /lp9600s /hpdj500c /tiffpack /bmpgray /ocr /lp8000 /epl6200 /ps2write /bbox /st800 /lj4dithp /cdnj500 /pgmraw /okiibm /iwlq /bj10e /mgr4 /lp9800c /hpdj510 /tiffscaled /bmpmono /hocr /lp8000c /eplcolor /pdfwrite /x11 /stcolor /lj5gray /chp2200 /pgnm /oprp /jetp3852 /bj10v /mgr8 /lps4500 /hpdj520 /tiffscaled24 /bmpsep1 /pdfocr8 /lp8100 /eplmono /psdcmyk /x11alpha /t4693d2 /lj5mono /cljet5 /pgnmraw /opvp /jj100 /bj10vh /mgrgray2 /lps6500 /hpdj540 /tiffscaled32 /bmpsep8 /pdfocr24 /lp8200c /eps9high /psdcmyk16 /x11cmyk /t4693d4 /ljet2p /cljet5c /pkm /paintjet /la50 /bj200 /mgrgray4 /lq850 /hpdj550c /tiffscaled4 /ccr /pdfocr32 /lp8300c /eps9mid /psdcmykog /x11cmyk2 /t4693d8 /ljet3 /cljet5pr /pkmraw /pcl3 /la70 /bjc600 /mgrgray8 /lxm3200 /hpdj560c /tiffscaled8 /cfax /nullpage /lp8300f /epson /psdcmyktags /x11cmyk4 /tek4696 /ljet3d /coslw2p /pksm /photoex /la75 /bjc800 /mgrmono /lxm5700m /hpdj600 /tiffsep /cif /lp8400f /epsonc /psdcmyktags16 /x11cmyk8 /uniprint /ljet4 /coslwxl /pksmraw /picty180 /la75plus /bjc880j /miff24 /m8510 /hpdj660c /tiffsep1 /devicen /lp8500c /escp /psdrgb /x11gray2 /xes /ljet4d /declj250 /plan /pj /laserjet /bjccmyk /pam /md1xMono /hpdj670c /txtwrite /dfaxhigh /lp8600 /escpage /psdrgb16 /x11gray4 /appleraster /ljet4pjl /deskjet /plan9bm /pjetxl /lbp310 /bjccolor /pamcmyk32 /md2k /hpdj680c /xcf /dfaxlow /lp8600f /fmlbp /psdrgbtags /x11mono /cups /ljetplus /dj505j /planc /pjxl /lbp320 /bjcgray /pamcmyk4 /md50Eco /hpdj690c /xpswrite /display /lp8700 /fmpr /spotcmyk /x11rg16x /pwgraster /ln03 /djet500 /plang /pjxl300 /lbp8 /bjcmono /pbm /md50Mono /hpdj850c /alc1900 /docxwrite /lp8800c /fs600 /tiff12nc /x11rg32x /urf /lp1800 /djet500c /plank /pr1000 /lex2050 /cdeskjet /pbmraw /md5k /hpdj855c /alc2000 /eps2write /lp8900 /gdi /tiff24nc /pclm /ijs /lp1900 /dl2100 /planm /pr1000_4 /lex3200 /cdj1600 /pcx16 /mj500c /hpdj870c /alc4000 /faxg3 /lp9000b /hl1240 /tiff32nc /pclm8 /png16 /lp2000 /dnj650c /plib /pr150 /lex5700 /cdj500 /pcx24b /mj6000c /hpdj890c /alc4100 /faxg32d /lp9000c /hl1250 /tiff48nc /bit /png16m /lp2200 /epl2050 /plibc /pr201 /lex7000 /cdj550 /pcx256 /mj700v2c /hpdjplus /alc8500 /faxg4 /lp9100 /hl7x0 /tiff64nc /bitcmyk /png16malpha /lp2400 /epl2050p /plibg /pxlcolor /lips2p /cdj670 /pcxcmyk /mj8000c /hpdjportable /alc8600 /fpng /lp9200b /hpdj1120c /tiffcrle /bitrgb /png256 /lp2500 /epl2120 /plibk /pxlmono /lips3 /cdj850 /pcxgray /ml600 /ibmpro /alc9100 /inferno /lp9200c /hpdj310 /tiffg3 /bitrgbtags /png48 /lp2563 /epl2500 /plibm /r4081 /lips4 /cdj880 /pcxmono]
+
+/currentsystemparams    --currentsystemparams--
+
+/.loadfontfile    {--dup-- (12345678) --.peekstring-- {-dict- --exch-- --known--} {false} --ifelse-- {-packedarray- --exec-- --pop--} {--dup-- (1234) --.peekstring-- {-dict- --exch-- --known--} {false} --ifelse-- {-packedarray- --exec-- --pop--} {.loadnonttfontfile} --ifelse--} --ifelse--}
+
+/..nosubstdevicetest    {false --mark-- 3 -1 --roll-- systemdict /..page_default_spaces --get-- 1 --index-- --known-- {--cleartomark--} {{--dup-- /ColorSpace resourcestatus {--pop-- 0 --eq-- {systemdict /..page_default_spaces --get-- 1 --index-- true --put-- --dup-- /ColorSpace findresource 4 2 --roll-- --pop-- --pop-- true} {--cleartomark--} --ifelse--} {--cleartomark--} --ifelse--} --stopped-- {--cleartomark--} --if--} --ifelse--}
+
+/setvmthreshold    --setvmthreshold--
+
+/.setsafe    --.setsafe--
+
+/buildfontdict    -dict-
+
+/.genericrfn    {3 -1 --roll-- (/usr/share/ghostscript/10.02.1/Resource/IdiomSet/Pscript5Idiom\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000...) --cvs-- concatstrings --exch-- --copy--}
+
+/findfont    -packedarray-
+
+/resourcestatus    --resourcestatus--
+
+/DeviceCMYK_array    [/DeviceCMYK]
+
+/.locksafe    --.locksafe--
+
+/getsystemparam    --getsystemparam--
+
+/.loadfontdict    -dict-
+
+/setpattern    --setpattern--
+
+/SAFETY    -dict-
+
+/devstatus    --devstatus--
+
+/DeviceRGB_array    [/DeviceRGB]
+
+/undefineuserobject    --undefineuserobject--
+
+/pssystemparams    -dict-
+
+/makepattern    --makepattern--
+
+/defineuserobject    --defineuserobject--
+
+/.lockfileaccess    {--.currentpathcontrolstate-- {false --not-- {(\n **** WARNING: .lockfileaccess or .setsafe called ****\n) --print-- ( **** when file access controls are already active ****\n) --print-- --flush--} --if--} {--mark-- [(/temp) (/tmp)] (*) --.generate_dir_list_templates-- /FONTPATH --.systemvar-- (*) --.generate_dir_list_templates-- /level2dict --where-- {--pop-- --mark-- --currentsystemparams-- /GenericResourceDir --get-- --]-- (*) --.generate_dir_list_templates--} --if-- /LIBPATH --.systemvar-- (*) --.generate_dir_list_templates-- --currentuserparams-- /ICCProfilesDir --known-- {--mark-- --currentuserparams-- /ICCProfilesDir --get-- --]-- (*) --.generate_dir_list_templates--} --if-- --]-- {/PermitFileReading --exch-- --.addcontrolpath--} --forall-- --mark-- [(/temp) (/tmp)] (*) --.generate_dir_list_templates-- --]-- {/PermitFileWriting --exch-- --.addcontrolpath--} --forall-- --mark-- [(/temp) (/tmp)] (*) --.generate_dir_list_templates-- --]-- {/PermitFileControl --exch-- --.addcontrolpath--} --forall-- --.activatepathcontrol--} --ifelse--}
+
+/.nativefontmapbuilt    false
+
+/setglobal    --setshared--
+
+/globaldict    -dict-
+
+/currentglobal    --.currentglobal--
+
+/.sethireshalftone    {-dict- /DITHERPPI --known-- {-dict- /DITHERPPI --get--} {--dup-- --cvi-- 100 --idiv-- 15 --.min-- {null 46 46 60 60 60 106 106 106 106 133 133 133 133 133 150} --exch-- --get--} --ifelse-- 1 --index-- 4.01 --div-- --.min-- 45 {(\(C\) 1989 Berthold K.P. Horn) --pop-- 1 --add-- 180 --mul-- --cos-- 1 0.08 --add-- --mul-- --exch-- 2 --add-- 180 --mul-- --cos-- 1 0.08 --sub-- --mul-- --add-- 2 --div--} --currentdevice-- --mark-- /RedValues 0 /GreenValues 0 /BlueValues 0 /GrayValues 0 --.dicttomark-- --.getdeviceparams-- --counttomark-- 2 --idiv-- 1 --sub-- {--exch-- --pop-- --dup-- 1 --le-- {--pop--} {--exch-- --dup-- 1 --le-- {--pop--} {--.min--} --ifelse--} --ifelse--} --repeat-- --exch-- --pop-- --exch-- --pop-- 32 --lt-- 4 --index-- 800 --lt-- --and-- 5 1 --roll-- 4 -1 --roll-- 150 --ge-- {/setcolorscreen --where-- {--pop-- -dict- /COLORSCREEN --known-- {-dict- /COLORSCREEN --get--} {3 --index--} --ifelse-- --dup-- false --ne-- {4 1 --roll-- 3 --copy-- 6 --copy-- 13 -1 --roll-- true --eq-- {{45 90 15 75} {3 1 --roll-- --exch-- --pop-- 12 3 --roll--} --forall--} --if-- --setcolorscreen--} {--pop-- --setscreen--} --ifelse--} {--setscreen--} --ifelse--} {--setscreen--} --ifelse--}
+
+/execform    --execform--
+
+/currentdevparams    --currentdevparams--
+
+/AladdinEnterprisesXUID    107
+
+/.tryfindfont    -packedarray-
+
+/.linescreen    {(\(C\) 1989 Berthold K.P. Horn) --pop-- 1 --add-- 180 --mul-- --cos-- 1 0.08 --add-- --mul-- --exch-- 2 --add-- 180 --mul-- --cos-- 1 0.08 --sub-- --mul-- --add-- 2 --div--}
+
+/execuserobject    --execuserobject--
+
+/devforall    --devforall--
+
+/colorspacedict    -dict-
+
+/vmreclaim    --vmreclaim--
+
+/<<    --mark--
+
+/LocalFontDirectory    -dict-
+
+/.setloresscreen    {.setloreshalftone 0 --array-- --cvx-- --settransfer-- /setstrokeadjust --where-- {--pop-- true setstrokeadjust} --if--}
+
+/SharedFontDirectory    -dict-
+
+/devformat    true
+
+/ucachestatus    --ucachestatus--
+
+/defaultfontmap_content    -dict-
+
+/resourceforall    --resourceforall--
+
+/FONTPATH    ()
+
+/currentpagedevice    --currentpagedevice--
+
+/definefont    --definefont--
+
+/.setloreshalftone    {16.001 --div-- 0 {1 --add-- 7.9999 --mul-- --cvi-- --exch-- 1 --add-- 7.9999 --mul-- --cvi-- 16 --mul-- --add-- (\016\216.\256\006\206&\246\f\214,\254\004\204$\244\316N\356n\306F\346f\314L\354l\304D\344d>\276\036\2366\266\026\226<\274\034\2344\264\024\224\376~\336^\366v\326V\374|\334\\\364t\324T\001\201!\241\t\211\)\251\003\203#\243\013\213+\253\301A\341a\311I\351i\303C\343c\313K\353k1\261\021\2219\271\031\2313\263\023\223;\273\033\233\361q\321Q\371y\331Y\363s\323S\373{\333[\r\215-\255\005\205%\245\017\217/\257\007\207'\247\315M\355m\305E\345e\317O\357o\307G\347g=\275\035\2355\265\025\225?\277\037\2377\267\027\227\375}\335]\365u\325U\377\177\337_\367w\327W\002\202"\242\n\212*\252...) --exch-- --get-- 256 --div--} --bind-- -dict- /setcolorscreen --known-- --processcolors-- 4 --eq-- --and-- {3 --copy-- 6 --copy-- --setcolorscreen--} {--setscreen--} --ifelse--}
+
+/setucacheparams    --setucacheparams--
+
+/defaultfontmap    (Fontmap)
+
+/psuserparams    -dict-
+
+/writeobject    --writeobject--
+
+/@PJL    {--count-- 3 --ge-- {--dup-- --mark-- --eq-- {2 --index-- --countdictstack-- --eq-- {1 --index-- /lucas --where-- {/lucas --get-- --eq--} {--pop-- false} --ifelse-- {--stop--} --if--} --if--} --if--} --if-- --currentfile-- (x255Unicode\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000...) --readline-- --pop-- --pop--}
+
+/findresource    --findresource--
+
+/scheck    --scheck--
+
+/M    {--currentfile-- /TBCPDecode --filter-- --cvx-- --exec--}
+
+/image    --image--
+
+/t1_glyph_equivalence    -dict-
+
+/defaultfontname    /Courier
+
+/E    {--currentfile-- (%-12345X) --.peekstring-- --pop-- (%-12345X) --eq-- (\004) --cvn-- --load-- --if--}
+
+/colorimage    --colorimage--
+
+/ReverseAdobeGlyphList    -dict-
+
+/shareddict    -dict-
+
+/.setdefaulthalftone    {{{--currentdevice-- /HalftoneDefault {2 --copy-- --mark-- --exch-- null --.dicttomark-- --.getdeviceparams-- --dup-- --mark-- --eq-- {--pop-- --dup-- /undefined signalerror} {5 1 --roll-- --pop-- --pop-- --pop-- --pop--} --ifelse--} --exec--} -packedarray- --exec-- {--pop-- --pop-- false} {--dup-- --type-- /dicttype --eq-- {true} {--pop-- false} --ifelse--} --ifelse-- --dup-- --not-- {--pop-- {/Default /Halftone /findresource --.systemvar-- --exec--} -packedarray- --exec-- {--pop-- --pop-- false} {true} --ifelse--} --if--} --exec-- {sethalftone} {{72 72 --matrix-- --defaultmatrix-- --dtransform-- --abs-- --exch-- --abs-- --.min-- --dup-- 150 --lt-- -dict- /DITHERPPI --known-- --not-- --and--} --exec-- {.setloreshalftone} {.sethireshalftone --pop--} --ifelse--} --ifelse--}
+
+/E    {}
+
+/.findfontvalue    -packedarray-
+
+/%Type2BuildGlyph    -packedarray-
+
+/setshared    --setshared--
+
+/setpagedevice    --setpagedevice--
+
+/imagemask    --imagemask--
+
+/%Type2BuildChar    -packedarray-
+
+/selectfont    --selectfont--
+
+/.definefontmapaux    {1 --index-- 100 --string-- --cvs-- --dup-- --length-- 0 --gt-- {0 --get-- 0 --eq-- 1 --index-- --type-- /nametype --ne-- --and-- {1 --index-- 100 --string-- --cvs-- --dup-- --length-- 2 --div-- --cvi-- --string-- true --exch-- 0 1 2 --index-- --length-- 1 --sub-- {--dup-- 4 --index-- --exch-- 2 --mul-- --get-- 0 --ne-- {--pop-- --pop-- false --exch-- --exit--} --if-- --dup-- 4 --index-- --exch-- 2 --mul-- 1 --add-- --get-- 2 --index-- 3 1 --roll-- --put--} --for-- --exch-- {DEBUG {(\nAdding alias for: ) --print-- 1 --index-- ==only ( as: ) --print-- --dup-- {==only (\n) --print--} --exec-- --flush--} --if-- --cvn-- --exch-- --cvn-- .definefontmapaux} {--pop-- --pop--} --ifelse--} --if--} {--pop--} --ifelse-- --.currentglobal-- 3 1 --roll-- true --.setglobal-- --dup-- --type-- /stringtype --eq-- {--dup-- --.gcheck-- --not-- {--dup-- --length-- --string-- --copy--} --if--} --if-- 4 -1 --roll-- {.nativeFontmap} {Fontmap} --ifelse-- 3 -1 --roll-- 2 --copy-- --.knownget-- {--mark-- --exch-- --aload-- --pop-- --counttomark-- 4 --add-- -1 --roll-- 2 --copy-- --eq-- {--cleartomark-- --pop-- --pop--} {--]-- --readonly-- .growput} --ifelse--} {--mark-- 4 -1 --roll-- --]-- --readonly-- .growput} --ifelse-- --.setglobal--}
+
+/.dofindfont    -packedarray-
+
+/.buildcidfont    --.buildcidfont--
+
+/.definefontmap    {/Font /Category --findresource-- /.Instances --get-- --dup-- 3 --index-- --known-- {--pop--} {2 --index-- --.currentglobal-- true --.setglobal-- --mark-- null 2 -1 --]-- --exch-- --.setglobal-- .growput} --ifelse-- {false 3 1 --roll-- {1 --index-- 100 --string-- --cvs-- --dup-- --length-- 0 --gt-- {0 --get-- 0 --eq-- 1 --index-- --type-- /nametype --ne-- --and-- {1 --index-- 100 --string-- --cvs-- --dup-- --length-- 2 --div-- --cvi-- --string-- true --exch-- 0 1 2 --index-- --length-- 1 --sub-- {--dup-- 4 --index-- --exch-- 2 --mul-- --get-- 0 --ne-- {--pop-- --pop-- false --exch-- --exit--} --if-- --dup-- 4 --index-- --exch-- 2 --mul-- 1 --add-- --get-- 2 --index-- 3 1 --roll-- --put--} --for-- --exch-- {DEBUG {(\nAdding alias for: ) --print-- 1 --index-- ==only ( as: ) --print-- --dup-- {==only (\n) --print--} --exec-- --flush--} --if-- --cvn-- --exch-- --cvn-- .definefontmapaux} {--pop-- --pop--} --ifelse--} --if--} {--pop--} --ifelse-- --.currentglobal-- 3 1 --roll-- true --.setglobal-- --dup-- --type-- /stringtype --eq-- {--dup-- --.gcheck-- --not-- {--dup-- --length-- --string-- --copy--} --if--} --if-- 4 -1 --roll-- {.nativeFontmap} {Fontmap} --ifelse-- 3 -1 --roll-- 2 --copy-- --.knownget-- {--mark-- --exch-- --aload-- --pop-- --counttomark-- 4 --add-- -1 --roll-- 2 --copy-- --eq-- {--cleartomark-- --pop-- --pop--} {--]-- --readonly-- .growput} --ifelse--} {--mark-- 4 -1 --roll-- --]-- --readonly-- .growput} --ifelse-- --.setglobal--} --exec--} --exec--}
+
+/printobject    --printobject--
+
+/serverdict    -dict-
+
+/.readFontmap    {{--dup-- --token-- --not-- {--closefile-- --exit--} --if-- --dup-- (\032) --eq-- {--pop-- --closefile-- --exit--} --if-- 1 --index-- --token-- --not-- {(Fontmap entry for ) --print-- --dup-- --=only-- ( has no associated file or alias name!  Giving up.) = --flush-- {.readFontmap} 0 --get-- 1 --.quit--} --if-- --dup-- --type-- --dup-- /stringtype --eq-- --exch-- /nametype --eq-- --or-- --not-- {(Fontmap entry for ) --print-- 1 --index-- --=only-- ( has an invalid file or alias name!  Giving up.) = --flush-- {.readFontmap} 0 --get-- 1 --.quit--} --if-- --dup-- --type-- /nametype --eq-- {--dup-- (<<) --cvn-- --eq-- {--pop-- --mark-- {--counttomark-- 2 --add-- --index-- --token-- --not-- {false --exit--} --if-- --dup-- (>>) --cvn-- --eq-- {--pop-- true --exit--} --if--} --loop-- {--.dicttomark--} {--cleartomark--} --ifelse--} --if--} --if-- 1 --index-- --type-- /stringtype --eq-- 1 --index-- --type-- /nametype --eq-- --and-- 1 --index-- --xcheck-- --and-- 1 --index-- /run --eq-- 2 --index-- /.runlibfile --eq-- --or-- --and-- {--pop-- --findlibfile-- {--exch-- --pop--} {--file--} --ifelse-- 2 --index-- --exch-- .readFontmap --pop--} {{2 --index-- --token-- --not-- {(Fontmap entry for ) --print-- 1 --index-- --=only-- ( ends prematurely!  Giving up.) = --flush-- {{50 --dict-- --exch-- .readFontmap --dup-- {--dup-- --length-- --dict-- --begin-- {--exch-- --pop-- --dup-- --type-- /stringtype --eq-- {{(/) --rsearch-- {true} {(\\) --rsearch--} --ifelse-- {--exch-- concatstrings --exch-- --pop-- true} {false} --ifelse--} --exec-- {--dup-- --def--} {--pop--} --ifelse--} {--pop--} --ifelse--} --forall-- --currentdict-- --end-- {--exch-- --pop-- /PermitFileReading --exch-- --.addcontrolpath--} --forall--} --exec-- {.definefontmap} --forall--} --exec--} 0 --get-- 1 --.quit--} --if-- --dup-- /; --eq-- {--pop-- 3 --index-- 3 1 --roll-- .growput --exit--} --if-- --pop--} --loop--} --ifelse--} --loop--}
+
+/loadallfonts    {--mark-- Fontmap .nativeFontmap --]-- {{--pop-- findfont --pop--} --forall--} --forall--}
+
+/statusdict    -dict-
+
+/.epsfheader    (\305\320\323\306)
+
+/write==only    {-dict- --begin-- .print --pop-- --end--}
+
+/pdf===only    {.pdf===dict 1 --index-- --type-- --.knownget-- {--exec--} {write===only} --ifelse--}
+
+/.loadnonttfontfile    -packedarray-
+
+/.pdf===dict    -dict-
+
+/.pdfpagelabels    {--dup-- --type-- /dicttype --eq-- {--dup-- /Nums knownoget {--exch-- --pop-- --mark-- --exch-- 0 1 2 --index-- --length-- 1 --sub-- {1 --index-- --exch-- oget --exch--} --for-- --pop-- --counttomark-- --array-- --astore-- 1 --dict-- --dup-- --begin-- --exch-- /Nums --exch-- --def-- --end-- .pdfcvs --mark-- /pdfpagelabels 3 -1 --roll-- .pdfputparams --dup-- --type-- /booleantype --ne-- {/pdfpagelabels .pdfparamerror} --if-- --cleartomark--} {/Kids knownoget {--dup-- .CountLeafs --dup-- 1000 --ge-- {(PageLabel tree too complex, ignoring PageLabels\n) --print-- --flush-- --pop-- --pop--} {--dict-- --exch-- .ExtractLeafs --mark-- --exch-- --dup-- --length-- 0 1 3 -1 --roll-- {--dup-- 20 --string-- --cvs-- --cvn-- 2 --index-- --exch-- --.knownget-- {3 -1 --roll--} {--pop--} --ifelse--} --for-- --pop-- --counttomark-- --array-- --astore-- 1 --dict-- --dup-- --begin-- --exch-- /Nums --exch-- --def-- --end-- .pdfcvs --mark-- /pdfpagelabels 3 -1 --roll-- .pdfputparams --dup-- --type-- /booleantype --ne-- {/pdfpagelabels .pdfparamerror} --if-- --cleartomark--} --ifelse--} {(Invalid number tree in PageLabels, ignoring PageLabels\n) --print-- --flush--} --ifelse--} --ifelse--} {/pdfpagelabels .pdfparamerror} --ifelse--}
+
+/.findnonttfontvalue    -packedarray-
+
+/.screenACSImageDict    -dict-
+
+/.write_small_positive_real    {1 --index-- (.) --writestring-- {--dup-- 100000000 --mul-- --dup-- 10 --mul-- 1 --ge-- {--pop-- --exit--} --if-- --exch-- --pop-- 1 --index-- (00000000) --writestring--} --loop-- {--dup-- 10 --mul-- --dup-- 10 --mul-- 1 --ge-- {--pop-- --exit--} --if-- --exch-- --pop-- 1 --index-- (0) --writestring--} --loop-- 100000000 --dup-- 10 --idiv-- 3 1 --roll-- --mul-- 0.5 --add-- --cvi-- 2 --copy-- --le-- {--pop-- --pop-- (1) --writestring--} {2 --index-- (0) --writestring-- --exch-- {10 --idiv-- --dup-- 2 --index-- --exch-- --idiv-- (0123456789) --exch-- 1 --getinterval-- 3 --index-- --exch-- --writestring-- --dup-- 3 2 --roll-- --exch-- --mod-- --dup-- 0 --eq-- {--exit--} --if-- --exch--} --loop-- --pop-- --pop-- --pop--} --ifelse--}
+
+/DEVICEHEIGHTPOINTS    792
+
+/.ExtractLeafs    {{oforce --dup-- /Nums knownoget {--exch-- --pop-- --dup-- --length-- 1 --sub-- 0 2 3 -1 --roll-- {--dup-- 2 --index-- --exch-- --get-- 20 --string-- --cvs-- --cvn-- --exch-- 1 --add-- 2 --index-- --exch-- oget 3 --index-- 3 1 --roll-- --put--} --for-- --pop--} {/Kids knownoget {.ExtractLeafs} --if--} --ifelse--} --forall--}
+
+/DEVICEWIDTHPOINTS    612
+
+/StandardEncoding    [/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash /zero /one /two /three /four /five /six /seven /eight /nine /colon /semicolon /less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /exclamdown /cent /sterling /fraction /yen /florin /section /currency /quotesingle /quotedblleft /guillemotleft /guilsinglleft /guilsinglright /fi /fl /.notdef /endash /dagger /daggerdbl /periodcentered /.notdef /paragraph /bullet /quotesinglbase /quotedblbase /quotedblright /guillemotright /ellipsis /perthousand /.notdef /questiondown /.notdef /grave /acute /circumflex /tilde /macron /breve /dotaccent /dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /emdash /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /AE /.notdef /ordfeminine /.notdef /.notdef /.notdef /.notdef /Lslash /Oslash /OE /ordmasculine /.notdef /.notdef /.notdef /.notdef /.notdef /ae /.notdef /.notdef /.notdef /dotlessi /.notdef /.notdef /lslash /oslash /oe /germandbls /.notdef /.notdef /.notdef /.notdef]
+
+/.CountLeafs    {0 --exch-- {oforce --dup-- --type-- /dicttype --eq-- {/Limits knownoget {--dup-- --type-- /arraytype --eq-- {1 --get-- 2 --copy-- --lt-- {--exch-- --pop--} {--pop--} --ifelse--} {(invalid number tree, /Limits not an array\n) --print-- --pop-- --pop-- 0 --exit--} --ifelse--} {(invalid number tree, /Limits not defined in intermediate or leaf node\n) --print-- --pop-- --pop-- 0 --exit--} --ifelse--} {(invalid number tree, /Kids entry not a dictionary\n) --print-- --pop-- --pop-- 0 --exit--} --ifelse--} --forall--}
+
+/NullFont    -dict-
+
+/.prepressACSImageDict    -dict-
+
+/.registerencoding    --.registerencoding--
+
+/.pdfparamerror    {--counttomark-- 4 --add-- 2 --roll-- --cleartomark-- --pop-- --pop-- --pop-- --.systemvar-- --exch-- signalerror}
+
+/.setsafererrors    --.setsafererrors--
+
+/PAPERSIZE    (letter)
+
+/findencoding    {{/Encoding --findresource--} --stopped-- {--pop-- /findencoding --cvx-- $error /errorname --get-- signalerror} --if--}
+
+/.SAFERERRORLIST    [/unknownerror /dictfull /dictstackoverflow /dictstackunderflow /execstackoverflow /interrupt /invalidaccess /invalidexit /invalidfileaccess /invalidfont /invalidrestore /ioerror /limitcheck /nocurrentpoint /rangecheck /stackoverflow /stackunderflow /syntaxerror /timeout /typecheck /undefined /undefinedfilename /undefinedresult /unmatchedmark /VMerror /configurationerror /undefinedresource /unregistered /invalidcontext /invalidid /pdf_stackoverflow /pdf_circular_reference]
+
+/DEFAULTPAPERSIZE    (letter)
+
+/.defineencoding    {/Encoding --defineresource-- --pop--}
+
+/.distillerparamkeys    -dict-
+
+/.printerACSImageDict    -dict-
+
+/.findencoding    {{/Encoding --findresource--} --stopped-- {--pop-- /findencoding --cvx-- $error /errorname --get-- signalerror} --if--}
+
+/EncodingDirectory    -dict-
+
+/DingbatsEncoding    {/DingbatsEncoding .findencoding}
+
+/.make_DSC_translation_table    {--dup-- --type-- /stringtype --eq-- {--cvn--} --if-- --dup-- --type-- /nametype --eq-- {/Encoding --findresource--} --if-- --dup-- --length-- --array-- --exch-- 0 1 2 --index-- --length-- 1 --sub-- {--dup-- 2 --index-- --exch-- --get-- --dup-- --dup-- null --eq-- --exch-- /.notdef --eq-- --or-- {--pop-- -1} {--dup-- -dict- --exch-- --.knownget-- {--dup-- --type-- --dup-- /arraytype --eq-- --exch-- /packedarraytype --eq-- --or-- {0 --get--} --if-- --exch-- --pop--} {(DSCEncoding defines a character that is not in AdobeGlyphList : ) --exch-- --.namestring-- concatstrings = /.make_DSC_translation_table --cvx-- /undefined signalerror} --ifelse--} --ifelse-- 3 --index-- 3 1 --roll-- --put--} --for-- --pop--}
+
+/gserrordict    -dict-
+
+/.file_table_pos_names    -dict-
+
+/.distillercommon    -dict-
+
+/FontDirectory    -dict-
+
+/SymbolEncoding    {/SymbolEncoding .findencoding}
+
+/.pdfdsc    {0 --get-- --dup-- null --ne-- {4 --copy-- --exch-- --pop-- --exec-- --pop--} {--pop--} --ifelse-- 3 -1 --roll-- --pop-- 20 --.localvmdict-- 1 --index-- {3 --copy-- --put-- --pop-- --pop--} --forall-- 3 -1 --roll-- --.parse_dsc_comments-- 1 --index-- --.pdf_hook_DSC_Creator-- --exec-- --dup-- /NOP --ne-- 2 --index-- --length-- 1 --gt-- --or-- {PDFWRDEBUG {(**** DSC comment: ) --print-- --dup-- {==only (\n) --print--} --exec-- 1 --index-- === --flush--} --if-- --exch-- --mark-- 4 1 --roll-- {3 --index-- 2 --index-- --known-- {--pop-- --pop--} {.pdfcvs 4 -2 --roll--} --ifelse--} --forall-- --exch-- --pop-- --counttomark-- --.localvmarray-- --astore-- --mark-- /DSC 3 -1 --roll-- .pdfputparams --dup-- --type-- /booleantype --ne-- {/DSC .pdfparamerror} {--cleartomark--} --ifelse--} {--pop-- --pop-- --pop--} --ifelse--}
+
+/anchorsearchforany    {false 3 1 --roll-- {--dup-- 3 1 --roll-- --anchorsearch-- {--pop-- 3 1 --roll-- --exch-- --not-- --exch-- --exit--} {--exch-- --pop--} --ifelse--} --forall-- --exch--}
+
+/.currentdistillerparams    --.currentdistillerparams--
+
+/.pdfdsc_dict    -dict-
+
+/setdistillerparams    --setdistillerparams--
+
+/.printerror    {$error /binary --get-- --.languagelevel-- 2 --ge-- --and-- {--currentobjectformat-- 0 --ne-- {--mark-- /Error $error /errorname --get-- $error /command --get-- --dup-- {{--mark-- 0 0 3 --.argindex-- {--dup-- --type-- -dict- --exch-- --get-- --exec--} --exec-- --cleartomark-- --pop--} --exec--} -packedarray- --exec-- {--pop-- 100 --string-- --cvs--} --if-- false --]-- 250 --printobject--} -packedarray- --ifelse--} -packedarray- --ifelse--}
+
+/.hexdigits    (0123456789ABCDEF)
+
+/.pdfcvsfirst    {.pdfcvsnone --dup-- 0 2 --copy-- --get-- .pdfcvs --put--}
+
+/.symbol_list    -dict-
+
+/.distillerdevice    {/IsDistiller /GetDeviceParam --.special_op-- {--exch-- --pop--} {false} --ifelse-- {--currentdevice--} {/pdfwrite --finddevice--} --ifelse--}
+
+/.pdfcvsnone    {100000 1 .pdfcvsloop}
+
+/.pdfcvseven    {1 2 .pdfcvsloop}
+
+/.defaultImageDict    -dict-
+
+/===    {===only (\n) --print--}
+
+/.getpost    {/glyphencoding post null --eq-- {TTFDEBUG {(post missing) = --flush--} --if-- --mark-- --]--} {postformats first_post_string 0 getu32 --.knownget-- {TTFDEBUG {(post: format ) --print-- first_post_string --dup-- 0 getu16 --=only-- (,) --print-- 2 getu16 = --flush--} --if-- post --exch-- --exec--} {TTFDEBUG {(post: unknown format ) --print-- post 0 getu32 = --flush--} --if-- --mark-- --]--} --ifelse--} --ifelse-- TTFDEBUG {(post=) --print-- --dup-- {==only (\n) --print--} --exec--} --if-- --def--}
+
+/.pdfcvsall    {0 1 .pdfcvsloop}
+
+/===only    {(%stdout) (w) --file-- --exch-- write===only}
+
+/first_post_string    {post --dup-- --type-- /arraytype --eq-- {0 --get--} --if--}
+
+/.pdfcvsloop    {--matrix-- --currentmatrix-- .pdfcvs 4 1 --roll-- --counttomark-- 1 --add-- 2 --roll-- --counttomark-- --.localvmarray-- --astore-- --exch-- --pop-- 3 1 --roll-- 2 --index-- --length-- 3 --sub-- {2 --copy-- 2 --copy-- --get-- .pdfcvs --put-- --pop--} --for--}
+
+/ISOLatin1Encoding    [/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl /numbersign /dollar /percent /ampersand /quoteright /parenleft /parenright /asterisk /plus /comma /minus /period /slash /zero /one /two /three /four /five /six /seven /eight /nine /colon /semicolon /less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore /quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar /braceright /asciitilde /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /dotlessi /grave /acute /circumflex /tilde /macron /breve /dotaccent /dieresis /.notdef /ring /cedilla /.notdef /hungarumlaut /ogonek /caron /space /exclamdown /cent /sterling /currency /yen /brokenbar /section /dieresis /copyright /ordfeminine /guillemotleft /logicalnot /hyphen /registered /macron /degree /plusminus /twosuperior /threesuperior /acute /mu /paragraph /periodcentered /cedilla /onesuperior /ordmasculine /guillemotright /onequarter /onehalf /threequarters /questiondown /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla /Egrave /Eacute /Ecircumflex /Edieresis /Igrave /Iacute /Icircumflex /Idieresis /Eth /Ntilde /Ograve /Oacute /Ocircumflex /Otilde /Odieresis /multiply /Oslash /Ugrave /Uacute /Ucircumflex /Udieresis /Yacute /Thorn /germandbls /agrave /aacute /acircumflex /atilde /adieresis /aring /ae /ccedilla /egrave /eacute /ecircumflex /edieresis /igrave /iacute /icircumflex /idieresis /eth /ntilde /ograve /oacute /ocircumflex /otilde /odieresis /divide /oslash /ugrave /uacute /ucircumflex /udieresis /yacute /thorn /ydieresis]
+
+/.standardfonts    [/Courier /Courier-Bold /Courier-Oblique /Courier-BoldOblique /Helvetica /Helvetica-Bold /Helvetica-Oblique /Helvetica-BoldOblique /Times-Roman /Times-Bold /Times-Italic /Times-BoldItalic /Symbol /ZapfDingbats]
+
+/write===    {1 --index-- --exch-- write===only (\n) --writestring--}
+
+/.pdfcvs    {--.currentglobal-- --exch-- false --.setglobal-- /.pdfcvstring () --store-- {--pop-- --dup-- --length-- 0 --eq-- {--pop--} {/.pdfcvstring .pdfcvstring 3 -1 --roll-- concatstrings --store--} --ifelse-- (\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000)} /NullEncode --filter-- --dup-- 3 -1 --roll-- pdf===only --closefile-- --.setglobal-- .pdfcvstring}
+
+/.distillersettings    -dict-
+
+/==only    {(%stdout) (w) --file-- --exch-- write==only}
+
+/.a1111    [1 1 1 1]
+
+/write===only    {-dict- --begin-- .print --pop-- --end--}
+
+/gcheck    --scheck--
+
+/.a2112    [2 1 1 2]
+
+/write==    {1 --index-- --exch-- write==only (\n) --writestring--}
+
+/.pdfcvbuf    (\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000)
+
+/pdfmark    --pdfmark--
+
+/EPSBoundingBoxState    5
+
+/setcachelimit    --setcachelimit--
+
+/arc    --arc--
+
+/.volatilepdkeys    -dict-
+
+/setdevice    --setdevice--
+
+/cvrs    --cvrs--
+
+/setdash    --setdash--
+
+/.setfilloverprint    --.setfilloverprint--
+
+/CCFONTDEBUG    false
+
+/.setdistillerparams    --.setdistillerparams--
+
+/show    --show--
+
+/DELAYBIND    false
+
+/.numcopiesdict    -dict-
+
+/=print    --=only--
+
+/.swapcolors    --.swapcolors--
+
+/currentpoint    --currentpoint--
+
+/NOPAUSE    false
+
+/execute0    {{--stopped-- $error /newerror --get-- --and-- {/handleerror --.systemvar-- --exec-- --flush-- true} {false} --ifelse--} --exec-- {/execute0 --cvx-- 1 --.quit--} --if--}
+
+/.loadttfonttables    -packedarray-
+
+/cachestatus    --cachestatus--
+
+/.writeonlykeys    -dict-
+
+/cvr    --cvr--
+
+/.currentfilloverprint    --.currentfilloverprint--
+
+/DEBUG    false
+
+/setcharwidth    --setcharwidth--
+
+/concatmatrix    --concatmatrix--
+
+/setsmoothness    --setsmoothness--
+
+/BATCH    false
+
+/write=    {1 --index-- --exch-- write=only (\n) --writestring--}
+
+/setcmykcolor    --setcmykcolor--
+
+/closepath    --closepath--
+
+/.begintransparencygroup    --.begintransparencygroup--
+
+/NOPAGEPROMPT    false
+
+/handleerror    {/errordict --.systemvar-- /handleerror --get-- -packedarray- --exec-- --pop--}
+
+/setfont    --setfont--
+
+/.runexec2    {--exch-- {.runexec} {--dup-- type /filetype --ne-- {--cvx-- --exec--} --if-- --closefile--} --ifelse--}
+
+/cvn    --cvn--
+
+/.setstrokeoverprint    --.setstrokeoverprint--
+
+/LIBPATH    [(/usr/share/ghostscript/10.02.1/Resource/Init) (/usr/share/ghostscript/10.02.1/lib) (/usr/share/ghostscript/10.02.1/Resource/Font) (/usr/share/ghostscript/fonts) (/usr/share/fonts/Type1) (/usr/share/fonts)]
+
+/.reusablestreamdecode    --.reusablestreamdecode--
+
+/setcachedevice2    --setcachedevice2--
+
+/dtransform    --dtransform--
+
+/.load_tt_font_stripped    -packedarray-
+
+/NOBIND    false
+
+/write=only    {--.writecvs--}
+
+/currentcmykcolor    --currentcmykcolor--
+
+/clip    --clip--
+
+/.popextendedgstate    --.popextendedgstate--
+
+/NOOUTERSAVE    false
+
+/currentsmoothness    --currentsmoothness--
+
+/scalefont    --scalefont--
+
+/RENDERTTNOTDEF    false
+
+/.runexec1    -packedarray-
+
+/cvlit    --cvlit--
+
+/initgraphics    --initgraphics--
+
+/.currentstrokeoverprint    --.currentstrokeoverprint--
+
+/EMULATORS    (PostScript\000PostScriptLevel1\000PostScriptLevel2\000PostScriptLevel3\000PDF)
+
+/.copiedkeys    [/OutputDevice /OutputAttributes /Policies /InputAttributes /PageSize /MediaColor /MediaWeight /MediaType /InsertSheet /ManualFeed /LeadingEdge /MediaClass /MediaPosition /Orientation /OutputType]
+
+/%Type32BuildGlyph    {1 --index-- /CharStrings --get-- --dup-- 2 --index-- --.knownget-- {--exch-- --pop--} {0 --.knownget-- --not-- {--exch-- --pop-- --.getshowoperator-- /invalidfont signalerror} --if--} --ifelse-- --dup-- --.getmetrics32-- --dup-- 14 --gt-- {8 --index-- 8 --index-- 13 3 --roll-- --setcachedevice2--} {4 --index-- 4 --index-- 9 3 --roll-- --setcachedevice--} --ifelse-- 6 -1 --roll-- 4 -1 --roll-- 1 --index-- --length-- 1 --index-- --sub-- --getinterval-- --dup-- () --eq-- {--pop-- --pop-- --pop--} {--mark-- /Columns 6 --index-- /Rows 7 --index-- /K -1 /EndOfBlock false /BlackIs1 true --.dicttomark-- /CCITTFaxDecode --filter-- 4 --index-- 4 --index-- true --mark-- 1 0 0 1 11 -2 --roll-- --exch-- --neg-- --exch-- --neg-- --]-- 5 -1 --roll-- --imagemask--} --ifelse-- --pop-- --pop-- --pop-- --pop--}
+
+/setcachedevice    --setcachedevice--
+
+/concat    --concat--
+
+/.load_woff_for_cid    -packedarray-
+
+/VMDEBUG    {--pop--}
+
+/.setuseciecolor    --.setuseciecolor--
+
+/signaloperror    {/errordict --.systemvar-- --exch-- --get-- --.finderrorobject-- {3 -1 --roll-- --pop-- --exch--} --if-- --exec--}
+
+/setrgbcolor    --setrgbcolor--
+
+/.fillstroke    --.fillstroke--
+
+/.pushextendedgstate    --.pushextendedgstate--
+
+/NOMEDIAATTRS    false
+
+/makefont    --makefont--
+
+/.readonlypdkeys    -dict-
+
+/WRITESYSTEMDICT    false
+
+/runpdfbegin    {--mark-- -->>-- runpdfbegin_with_params}
+
+/cvi    --cvi--
+
+/.setoverprintmode    --.setoverprintmode--
+
+/INITFILES    (gs_btokn.ps\000gs_dps1.ps\000gs_dps2.ps\000gs_agl.ps\000gs_type1.ps\000gs_lev2.ps\000gs_res.ps\000gs_typ42.ps\000gs_cidfn.ps\000gs_cidcm.ps\000gs_fntem.ps\000gs_cidtt.ps\000gs_cidfm.ps\000gs_cmap.ps\000gs_setpd.ps\000gs_fapi.ps\000gs_typ32.ps\000gs_fr...)
+
+/kshow    --kshow--
+
+/.defaultpolicies    -dict-
+
+/.bind    --.bind--
+
+/.setdefaultscreen    {{72 72 --matrix-- --defaultmatrix-- --dtransform-- --abs-- --exch-- --abs-- --.min-- --dup-- 150 --lt-- -dict- /DITHERPPI --known-- --not-- --and--} --exec-- {.setloresscreen} {.sethiresscreen} --ifelse-- {systemdict /setblackgeneration --known-- {(%.defaultbgrucrproc) --cvn-- --load-- --dup-- --setblackgeneration-- --setundercolorremoval--} --if--} --exec--}
+
+/currentrgbcolor    --currentrgbcolor--
+
+/.eofillstroke    --.eofillstroke--
+
+/NOGC    false
+
+/currentfont    --currentfont--
+
+/.FAPIBuildGlyph9    --.FAPIBuildGlyph9--
+
+/TTYPAUSE    false
+
+/run    --run--
+
+/currentmiterlimit    --currentmiterlimit--
+
+/%currentgstatepagedevice    {currentpagedevice --pop-- --currentgstate--}
+
+/setoverprint    --setoverprint--
+
+/newpdf_runpdf    {runpdfbegin PDFInfo --type-- /dicttype --eq-- {PDFInfo /Collection --known-- {PDFInfo /Collection --get-- pdfclose --dup-- --length-- 1 --sub-- 0 2 3 -1 --roll-- {1 --index-- --exch-- --get-- (r) --file-- runpdf_collection_entry} --for-- --pop-- runpdfend} {process_trailer_attrs runpdfpagerange dopdfpages runpdfend} --ifelse--} {--pop-- --pop--} --ifelse--}
+
+/.nullpagedevice    -dict-
+
+/PDFNOCIDFALLBACK    false
+
+/clipsave    --clipsave--
+
+/sethsbcolor    --sethsbcolor--
+
+/.settextknockout    --.settextknockout--
+
+/NOFONTPATH    false
+
+/.special_op    --.special_op--
+
+/.FAPIBuildGlyph    --.FAPIBuildGlyph--
+
+/SHORTERRORS    false
+
+/quit    --quit--
+
+/token    --token--
+
+/currentlinewidth    --currentlinewidth--
+
+/%copygstatepagedevice    {currentpagedevice --pop-- --copy--}
+
+/charpath    --charpath--
+
+/setscreen    --setscreen--
+
+/%setgstatepagedevice    {.uninstallpagedevice --setgstate-- -packedarray- --exec--}
+
+/PDFSTOPONWARNING    false
+
+/currentmatrix    --currentmatrix--
+
+/selectdevice    {finddevice --setdevice-- .setdefaultscreen}
+
+/currenthsbcolor    --currenthsbcolor--
+
+/cliprestore    --cliprestore--
+
+/NOFONTMAP    false
+
+/$error    -dict-
+
+/.FAPIBuildChar    --.FAPIBuildChar--
+
+/ALLOWPSTRANSPARENCY    false
+
+/currentlinejoin    --currentlinejoin--
+
+/%gstatepagedevice    {currentpagedevice --pop-- --gstate--}
+
+/currentoverprint    --currentoverprint--
+
+/.systemexec    --.systemexec--
+
+/awidthshow    --awidthshow--
+
+/%restorepagedevice    {.uninstallpagedevice --restore-- -packedarray- --exec--}
+
+/PDFSTOPONERROR    false
+
+/DeviceGray_array    [/DeviceGray]
+
+/runlibfile    {--findlibfile-- {--exch-- --pop-- /run --.systemvar-- --exec--} {/undefinedfilename signalerror} --ifelse--}
+
+/setgray    --setgray--
+
+/stroke    --stroke--
+
+/.setblendmode    --.setblendmode--
+
+/DISPLAYING    true
+
+/newpdf_get_any_box    -packedarray-
+
+/%savepagedevice    {currentpagedevice --pop-- --save--}
+
+/process_trailer_attrs    {}
+
+/==    {==only (\n) --print--}
+
+/currentlinecap    --currentlinecap--
+
+/.setobjtypeHT    --.setobjtypeHT--
+
+/check_r6_password    --check_r6_password--
+
+/.systemvar    --.systemvar--
+
+/start    {-dict- /BATCH get {null 0 .quit} {executive} ifelse}
+
+/ashow    --ashow--
+
+/%restore1pagedevice    {.uninstallpagedevice --grestore-- -packedarray- --exec-- --restore--}
+
+/PDFSTEP    false
+
+/newpdf_check_empty_box    -packedarray-
+
+/currentgray    --currentgray--
+
+/fill    --fill--
+
+/runpdfend    {pdfpagecount CumulativePageCount pdfclose PDFSave --restore-- --end-- --add-- --mark-- /PageCount 3 -1 --roll-- -->>-- --setpagedevice--}
+
+/erasepage    --erasepage--
+
+/dopdfpages    {{systemdict /FirstPage --known-- systemdict /LastPage --known-- --or-- systemdict /PageList --known-- --or-- {--mark-- /DisablePageHandler true -->>-- --setpagedevice--} --if--} --exec-- /PDFPageList --where-- {--pop-- --pop-- --pop-- PDFPageList 0 3 2 --index-- --length-- 1 --sub-- {1 --index-- 1 --index-- --get-- 2 --index-- 2 --index-- 1 --add-- --get-- --exch-- 3 --index-- 3 --index-- 2 --add-- --get-- --exch-- 0 --eq-- {1} {2} --ifelse-- 2 --index-- 2 --index-- --gt-- {--neg--} --if-- --exch-- {pdfgetpage --dup-- null --ne-- {pdfshowpage} {PDFSTOPONERROR {/dopdfpages --cvx-- /syntaxerror signalerror} {--pop-- --pop-- (   **** Error: page) newpdf_pdfformaterror ( not found.\n) newpdf_pdfformaterror} --ifelse--} --ifelse--} --for-- --pop--} --for-- --pop--} {1 --exch-- {pdfgetpage --dup-- null --ne-- {pdfshowpage} {PDFSTOPONERROR {/dopdfpages --cvx-- /syntaxerror signalerror} {--pop-- --pop-- (   **** Error: page) newpdf_pdfformaterror ( not found.\n) newpdf_pdfformaterror} --ifelse--} --ifelse--} --for--} --ifelse-- {systemdict /FirstPage --known-- systemdict /LastPage --known-- --or-- systemdict /PageList --known-- --or-- {--mark-- /DisablePageHandler false -->>-- --setpagedevice--} --if--} --exec--}
+
+/%gsavepagedevice    {currentpagedevice --pop-- --gsave--}
+
+/.currentfillconstantalpha    --.currentfillconstantalpha--
+
+/SAFERERRORS    false
+
+/pstack    {0 1 --count-- 3 --sub-- {--index-- ==} --for--}
+
+/.genordered    --.genordered--
+
+/.PDFSetParams    --.PDFSetParams--
+
+/stack    {0 1 --count-- 3 --sub-- {--index-- =} --for--}
+
+/.buildfont3    --.buildfont3--
+
+/RESMPDEBUG    false
+
+/.growput    {2 --index-- --length-- 3 --index-- --maxlength-- --eq-- {3 --copy-- --pop-- --known-- --not-- {2 --index-- {--dup-- {--length-- 3 --mul-- 2 --idiv-- 1 --add--} --exec-- --.setmaxlength--} --exec--} --if--} --if-- --put--}
+
+/eofill    --eofill--
+
+/NOPSICC    false
+
+/.execasresource    -packedarray-
+
+/.errorhandler    -packedarray-
+
+/nulldevice    --nulldevice--
+
+/%grestoreallpagedevice    {.uninstallpagedevice --grestore-- -packedarray- --exec-- --grestoreall--}
+
+/OLDSAFER    false
+
+/=only    --=only--
+
+/currentflat    --currentflat--
+
+/USE_CIDCHAR_AS_RANGE    false
+
+/.PDFAvailable    --.PDFAvailable--
+
+/showpage    --showpage--
+
+/vmstatus    --vmstatus--
+
+/VJPGDEBUG    false
+
+/min    {--.min--}
+
+/settransfer    --settransfer--
+
+/CMERGE_DEBUG    false
+
+/NOCIE    false
+
+/%grestorepagedevice    {.uninstallpagedevice --grestore-- -packedarray- --exec--}
+
+/.currentstrokeconstantalpha    --.currentstrokeconstantalpha--
+
+/SAFER    true
+
+/runpdfbegin_with_params    {/pdfdict 10 --dict-- --def-- pdfdict --begin-- --currentpagedevice-- /PageCount --get-- /CumulativePageCount --exch-- --def-- /Trailer --mark-- -->>-- --def-- /PDFSave --save-- --def-- /knownoget {2 --copy-- --known-- {--get-- true} {--pop-- --pop-- false} --ifelse--} --bind-- --def-- /pget {2 --copy-- --known-- {--get-- true} {--pop-- --pop-- false} --ifelse--} --bind-- --def-- newpdf_gather_parameters --exch-- {2 --index-- 3 1 --roll-- --put--} --forall-- PDFSTOPONERROR {--.PDFInit-- /PDFFile --exch-- --def-- pdfopen /PDFInfo --exch-- --def-- --pop--} {{--.PDFInit--} --stopped-- {(   **** Error: Failed to initialise PDF interpreter.\n) newpdf_pdfformaterror /PDFFile null --def-- /PDFInfo null --def--} {/PDFFile --exch-- --def-- pdfopen /PDFInfo --exch-- --def-- --pop--} --ifelse--} --ifelse--}
+
+/.currentfilladjust2    --.currentfilladjust2--
+
+/pathbbox    --pathbbox--
+
+/.PDFparsePageList    --.PDFparsePageList--
+
+/pdfclose    {PDFSTOPONERROR {PDFFile --.PDFClose--} {PDFFile {--.PDFClose--} --stopped-- {--pop--} --if--} --ifelse--}
+
+/..page_default_spaces    -dict-
+
+/.settextrenderingmode    --.settextrenderingmode--
+
+/VGIFDEBUG    false
+
+/max    {--.max--}
+
+/translate    --translate--
+
+/.uninstallpagedevice    -packedarray-
+
+/NOCCFONTS    false
+
+/newpdf_get_media_box    -packedarray-
+
+/.loadnonottofontfile    {--mark-- --exch-- 32 --dict-- --begin-- --currentpacking-- {false --setpacking-- -packedarray- --exec-- true --setpacking--} {-packedarray- --exec--} --ifelse-- --end-- {--stop--} --if-- --cleartomark--}
+
+/runpdf_collection_entry    {--mark-- /PreserveDocView false -->>-- runpdfbegin_with_params PDFInfo --type-- /dicttype --eq-- {PDFInfo /Collection --known-- {PDFInfo /Collection --get-- pdfclose --dup-- --length-- 1 --sub-- 0 2 3 -1 --roll-- {1 --index-- --exch-- --get-- (r) --file-- runpdf_collection_entry} --for-- --pop--} {process_trailer_attrs runpdfpagerange dopdfpages runpdfend} --ifelse--} {--pop-- --pop--} --ifelse--}
+
+/matrix    --matrix--
+
+/.PDFInit    --.PDFInit--
+
+/.runps    --run--
+
+/copypage    --copypage--
+
+/xcheck    --xcheck--
+
+/setmiterlimit    --setmiterlimit--
+
+/TTFDEBUG    false
+
+/findlibfile    --findlibfile--
+
+/currenttransfer    --currenttransfer--
+
+/transform    --transform--
+
+/NewPDF_FitPage    {--dup-- 2 --get-- 1 --index-- 0 --get-- --sub-- 1 --index-- 3 --get-- 2 --index-- 1 --get-- --sub-- --currentpagedevice-- /PageSize --get-- --aload-- --pop-- 4 --copy-- --eq-- 3 1 --roll-- --eq-- --or-- {--pop-- --pop-- --pop-- --pop-- false} {--gt-- {--ge-- {false} {true} --ifelse--} {--ge-- {true} {false} --ifelse--} --ifelse--} --ifelse-- 1 --index-- 2 --get-- 2 --index-- 0 --get-- --sub-- 2 --index-- 3 --get-- 3 --index-- 1 --get-- --sub-- --currentpagedevice-- /PageSize --get-- --aload-- --pop-- 5 -1 --roll-- {90 --rotate-- 0 2 --index-- --neg-- --translate-- --exch--} --if-- 4 --copy-- 3 -1 --roll-- --div-- 3 1 --roll-- --exch-- --div-- 2 --copy-- --gt-- {--exch-- --pop-- --dup-- 4 --index-- --mul-- 3 -1 --roll-- --sub-- --dup-- 0 --lt-- {-1 --mul--} --if-- --dup-- 0 --ne-- {2 --div--} --if-- 0 --exch-- --translate--} {--pop-- --dup-- 5 --index-- --mul-- 4 -1 --roll-- --sub-- --dup-- 0 --lt-- {-1 --mul--} --if-- --dup-- 0 --ne-- {2 --div--} --if-- 0 --translate--} --ifelse-- 4 --index-- --aload-- --pop-- --pop-- --pop-- --neg-- 2 --index-- --mul-- --exch-- --neg-- 2 --index-- --mul-- --exch-- --translate-- --dup-- --scale-- --pop-- --pop-- --pop--}
+
+/NOCACHE    false
+
+/eexec    --eexec--
+
+/.currentfilename    (gs_pdfwr.ps)
+
+/copy_embedded_file    -packedarray-
+
+/strokepath    --strokepath--
+
+/.PDFDrawAnnots    --.PDFDrawAnnots--
+
+/pdfavailable    {--.PDFAvailable--}
+
+/wcheck    --wcheck--
+
+/setlinewidth    --setlinewidth--
+
+/pdf_collection_names    -packedarray-
+
+/SETPDDEBUG    false
+
+/signalerror    {/errordict --.systemvar-- --exch-- --get-- --exec--}
+
+/.copydict    {--dup-- 3 -1 --roll-- {--put-- --dup--} --forall-- --pop--}
+
+/setcolorspace    --setcolorspace--
+
+/runpdf    --runpdf--
+
+/JOBSERVER    false
+
+/.eexec_param_dict    -dict-
+
+/currentoverprintmode    --currentoverprintmode--
+
+/rmoveto    --rmoveto--
+
+/setoverprintmode    --setoverprintmode--
+
+/QUIET    false
+
+/languagelevel    3
+
+/currentdash    --currentdash--
+
+/reversepath    --reversepath--
+
+/.PDFDrawPage    --.PDFDrawPage--
+
+/.skipeof    {--currentfile-- --exch-- 1 --exch-- --.subfiledecode-- --flushfile--}
+
+/.outputattrkeys    [/OutputType]
+
+/PDFWRDEBUG    false
+
+/.putdeviceparamsonly    {--.currentpagedevice-- {--counttomark-- 4 --add-- 1 --roll-- --.putdeviceparams-- --dup-- --type-- /booleantype --eq-- {3} {--counttomark-- 5 --add--} --ifelse-- -1 --roll-- --.setpagedevice--} {--pop-- --.putdeviceparams--} --ifelse--}
+
+/copyarray    {--dup-- --length-- --array-- --copy--}
+
+/setcolor    --setcolor--
+
+/runpdfpagerange    {/PageList --where-- {--pop-- pdfpagecount --.PDFparsePageList-- --dup-- 0 --eq-- {(\n   **** Error: Invalid PageList: ) --print-- PageList --print-- (\n   No pages will be processed.) = --flush-- /runpdfpagerange --cvx-- /syntaxerror signalerror} --if-- --array-- --astore-- /PDFPageList --exch-- --def-- QUIET --not-- {(Processing pages ) --print-- PageList --=only-- (.) = --flush--} --if-- 1 pdfpagecount} {/FirstPage --where-- {--pop-- FirstPage --dup-- pdfpagecount --gt-- {(\nRequested FirstPage is greater than the number of pages in the file: ) --print-- pdfpagecount = --flush--} --if--} {1} --ifelse-- /LastPage --where-- {--pop-- LastPage pdfpagecount --.min--} {pdfpagecount} --ifelse-- 1 --index-- 1 --index-- --gt-- {(   No pages will be processed \(FirstPage > LastPage\).) = --flush--} {QUIET --not-- {(Processing pages ) --print-- 1 --index-- --=only-- ( through ) --print-- --dup-- --=only-- (.) = --flush--} --if--} --ifelse--} --ifelse--}
+
+/LOCALFONTS    false
+
+/store    --store--
+
+/.runstringbegin    -packedarray-
+
+/rlineto    --rlineto--
+
+/.buildshading_and_shfill    {{--dup-- --rcheck-- --not-- {/$error --.systemvar-- /errorinfo --mark-- /ColorSpace null --]-- --put-- /shfill --.systemvar-- /invalidaccess signalerror} --if-- --dup-- /DataSource --.knownget-- {--dup-- --type-- /filetype --eq-- {-dict- /ReusableStreamDecode --filter-- --.currentglobal-- 2 --index-- --scheck-- --.setglobal-- 2 --index-- --dup-- --length-- --dict-- --copy-- --exch-- --.setglobal-- --dup-- /DataSource 4 -1 --roll-- --put-- --exch-- --pop--} {--pop--} --ifelse--} --if-- --dup-- /ShadingType --.knownget-- --not-- {/$error --.systemvar-- /errorinfo --mark-- /ShadingType null --]-- --put-- /shfill --.systemvar-- /undefined signalerror} --if-- --dup-- --type-- /integertype --ne-- {/$error --.systemvar-- /errorinfo --mark-- /ShadingType 4 --index-- --]-- --put-- /shfill --.systemvar-- /typecheck signalerror} --if-- -dict- 1 --index-- --.knownget-- --not-- {/$error --.systemvar-- /errorinfo --mark-- /ShadingType 4 --index-- --]-- --put-- /shfill --.systemvar-- /rangecheck signalerror} --if-- --exch-- --pop-- 1 --index-- /ColorSpace --.knownget-- {{--setcolorspace--} --stopped-- {/$error --.systemvar-- /errorinfo --mark-- /ColorSpace 4 --index-- --]-- --put-- /shfill --.systemvar-- /$error --.systemvar-- /errorname --get-- signalerror} --if-- --exec--} {/$error --.systemvar-- /errorinfo --mark-- /ColorSpace null --]-- --put-- /shfill --.systemvar-- /undefined signalerror} --ifelse--} --exec-- --.shfill--}
+
+/pdfshowpage    {/PDFINFO --where-- {/PDFINFO --get--} {false} --ifelse-- {/Page# --get-- PDFFile --exch-- 1 --sub-- {--.PDFDrawPage--} --stopped-- --pop--} {pdfshowpage_init pdfshowpage_setpage pdfshowpage_finish} --ifelse--}
+
+/identmatrix    --identmatrix--
+
+/pathforall    --pathforall--
+
+/.PDFMetadata    --.PDFMetadata--
+
+/pdfshowpage_finish    {PDFSTOPONERROR {/Page# --get-- PDFFile --exch-- 1 --sub-- --.PDFDrawPage-- --showpage--} {/Page# --get-- PDFFile --exch-- 1 --sub-- {--.PDFDrawPage--} --stopped-- {--pop-- --pop-- (   **** Error: Page drawing error occurred.\n) newpdf_pdfformaterror (               Output may be incorrect.\n) newpdf_pdfformaterror} --if-- {--showpage--} --stopped-- {(   **** Error: Page drawing error occurred.\n) newpdf_pdfformaterror (               Could not draw this page at all, page will be missing in the output.\n) newpdf_pdfformaterror} --if--} --ifelse--}
+
+/shfill    --shfill--
+
+/.buildfont32    --.buildfont32--
+
+/PDFDEBUG    false
+
+/concatstrings    {--exch-- --dup-- --length-- 2 --index-- --length-- --add-- --string-- --dup-- --dup-- 4 2 --roll-- --copy-- --length-- 4 -1 --roll-- --putinterval--}
+
+/scale    --scale--
+
+/FIXEDRESOLUTION    false
+
+/.runstring    {0 0 --.systemvmstring-- --.systemvmSFD-- --cvx-- {.runexec} execute0}
+
+/rcurveto    --rcurveto--
+
+/errordict    -dict-
+
+/flattenpath    --flattenpath--
+
+/.PDFPageInfoExt    --.PDFPageInfoExt--
+
+/.inputselectionkeys    [/MediaPosition /Orientation]
+
+/setmatrix    --setmatrix--
+
+/readonly    --readonly--
+
+/setflat    --setflat--
+
+/pdfshowpage_setpage    {--dup-- newpdf_device_setup --dup-- newpdf_set_pagesize}
+
+/INITDEBUG    false
+
+/type    --type--
+
+/internaldict    --internaldict--
+
+/currentcolorspace    --currentcolorspace--
+
+/rotate    --rotate--
+
+/currentdistillerparams    --currentdistillerparams--
+
+/FIXEDMEDIA    false
+
+/.echo    --echo--
+
+/.runstdin    {{{(%stdin) (r) --file-- --cvx--} .runexec} execute0}
+
+/flushpage    --flushpage--
+
+/newpath    --newpath--
+
+/.pdfputparams    {--currentdevice-- null false --counttomark-- 1 --add-- 3 --roll-- {--.putdeviceparams--} --.currentpagedevice-- --pop-- {--.setpagedevice--} 3 --.execn--}
+
+/OSTACKPRINT    false
+
+/.GShandleerror    {/.printerror --.systemvar-- --exec--}
+
+/.PDFPageInfo    --.PDFPageInfo--
+
+/.inputattrkeys    [/PageSize /MediaColor /MediaWeight /MediaType /InsertSheet /ManualFeed /LeadingEdge /MediaClass]
+
+/setlinejoin    --setlinejoin--
+
+/rcheck    --rcheck--
+
+/pdfshowpage_init    {}
+
+/FAPIDEBUG    false
+
+/.FAPIconfig    -dict-
+
+/currentcolor    --currentcolor--
+
+/itransform    --itransform--
+
+/newpdf_device_setup    {2 --dict-- --exch-- --dup-- /UsesTransparency --get-- /PageUsesTransparency --exch-- 3 --index-- 3 1 --roll-- --put-- --currentpagedevice-- /PageSpotColors --known-- {/NumSpots --get-- /PageSpotColors --exch-- 2 --index-- 3 1 --roll-- --put--} {--pop--} --ifelse-- --setpagedevice--}
+
+/FAKEFONTS    false
+
+/currentscreen    --currentscreen--
+
+/.runfile    {{runlibfile} execute0}
+
+/moveto    --moveto--
+
+/ORIENT1    true
+
+/clippath    --clippath--
+
+/.PDFInfo    --.PDFInfo--
+
+/pdfpagecount    {--currentdict-- /PDFInfo --known-- {PDFInfo} {PDFFile null --eq-- --not-- {PDFSTOPONERROR {PDFFile --.PDFInfo-- false} {PDFFile {--.PDFInfo--} --stopped--} --ifelse--} {true} --ifelse-- {--mark-- /NumPages 0 -->>--} --if--} --ifelse-- --dup-- /NumPages --known-- {/NumPages --get--} {--pop-- 0} --ifelse--}
+
+/setlinecap    --setlinecap--
+
+/noaccess    --noaccess--
+
+/.setfilladjust2    --.setfilladjust2--
+
+/EPSDEBUG    false
+
+/.where    --where--
+
+/.incachedevice    --.incachedevice--
+
+/invertmatrix    --invertmatrix--
+
+/.copytree    {--dup-- --length-- --dict-- --exch-- {--dup-- --type-- /dicttype --eq-- {.copytree} --if-- 2 --index-- 3 1 --roll-- --put--} --forall--}
+
+/ESTACKPRINT    false
+
+/currentcolorscreen    --currentcolorscreen--
+
+/newpdf_pdfformaterror    -packedarray-
+
+/lineto    --lineto--
+
+/NOSUBSTDEVICECOLORS    false
+
+/filter    --filter--
+
+/arcto    --arcto--
+
+/.PDFClose    --.PDFClose--
+
+/pdfgetpage    {--dup-- 1 --sub-- PDFSTOPONERROR {PDFFile --exch-- --.PDFPageInfo-- --dup-- 3 -1 --roll-- /Page# --exch-- --put--} {PDFFile --exch-- {--.PDFPageInfo--} --stopped-- {--pop-- --pop-- (   **** Error: Couldn't get page info.\n) newpdf_pdfformaterror (               Output may be incorrect.\n) newpdf_pdfformaterror null} {--dup-- 3 -1 --roll-- /Page# --exch-- --put--} --ifelse--} --ifelse--}
+
+/sethalftone    --sethalftone--
+
+/executeonly    --executeonly--
+
+/DOCIEDEBUG    false
+
+/copyscanlines    --copyscanlines--
+
+/initmatrix    --initmatrix--
+
+/.shellarguments    {/ARGUMENTS --where-- {/ARGUMENTS --get-- --dup-- --type-- /arraytype --eq-- {--aload-- --pop-- /ARGUMENTS null --store-- true} {--pop-- false} --ifelse--} {false} --ifelse--}
+
+/initclip    --initclip--
+
+/DOPS    false
+
+/.runexec    {--cvlit-- /.runexec1 --cvx-- 1 --index-- /.runexec2 --cvx-- 4 --.execn--}
+
+/currentcacheparams    --currentcacheparams--
+
+/arct    --arct--
+
+/.PDFStream    --.PDFStream--
+
+/newpdf_gather_parameters    -packedarray-
+
+/pdfopen    {--dup-- PDFFile null --ne-- {PDFSTOPONERROR {PDFFile --.PDFStream-- PDFFile --.PDFInfo--} {PDFFile {--.PDFStream--} --stopped-- {--pop-- --pop-- (   **** Error: Couldn't initialise file.\n) newpdf_pdfformaterror (               Output may be incorrect.\n) newpdf_pdfformaterror --mark-- /NumPages 0 -->>--} {PDFFile {--.PDFInfo--} --stopped-- {--pop-- (   **** Error: Couldn't get page information.\n) newpdf_pdfformaterror (               Output may be incorrect.\n) newpdf_pdfformaterror --mark-- /NumPages 0 -->>--} --if--} --ifelse--} --ifelse--} {--pop-- --mark-- /NumPages 0 -->>--} --ifelse--}
+
+/cvx    --cvx--
+
+/CMAPDEBUG    false
+
+/version    (3010)
+
+/widthshow    --widthshow--
+
+/idtransform    --idtransform--
+
+/newpdf_set_pagesize    -packedarray-
+
+/.currentnumcopies    --.currentnumcopies--
+
+/currentdevice    --currentdevice--
+
+/eoclip    --eoclip--
+
+/NOTRANSPARENCY    false
+
+/prompt    {--flush-- --flushpage-- -dict- /NOPROMPT --get-- --not-- {{(GS) --print-- --count-- 0 --ne-- {(<) --print-- --count-- =only} --if-- (>) --print-- --flush--} --exec--} --if--}
+
+/setcacheparams    --setcacheparams--
+
+/arcn    --arcn--
+
+/.PDFFile    --.PDFFile--
+
+/currenthalftone    --currenthalftone--
+
+/cvs    --cvs--
+
+/CFFDEBUG    false
+
+/stringwidth    --stringwidth--
+
+/defaultmatrix    --defaultmatrix--
+
+/devicedict    -dict-
+
+/curveto    --curveto--
+
+/NOPROMPT    false
+
+/executive    {{prompt {(%statementedit) (r) --.systemvmfile--} --stopped-- {--pop-- --pop-- $error /errorname --get-- /undefinedfilename --eq-- {-packedarray- --exec-- --exit--} --if-- /handleerror --.systemvar-- --exec-- null} --if-- --cvx-- {.runexec} {--stopped-- $error /newerror --get-- --and-- {/handleerror --.systemvar-- --exec-- --flush-- true} {false} --ifelse--} --exec-- --pop--} --loop--}
+
+/.findresource    {2 --copy-- --dup-- /Category --eq-- {--pop-- [-dict- 0 -1] 0 --get-- --begin--} {{/Category .findresource --begin--} --exec--} --ifelse-- /FindResource {--load-- --exec-- --end--} --exec-- --exch-- --pop-- --exch-- --pop--}
+
+/.buildfont4    --.buildfont4--
+
+/get    --get--
+
+/buildtime    0
+
+/productfamily    (GPL Ghostscript)
+
+/maxlength    --maxlength--
+
+/%Type42BuildChar    -packedarray-
+
+/setobjectformat    --setobjectformat--
+
+/.addcontrolpath    --.addcontrolpath--
+
+/lt    --lt--
+
+/readline    --readline--
+
+/.buildfont1    --.buildfont1--
+
+/execstack    --execstack--
+
+/product    (GPL Ghostscript)
+
+/.buildfont9    --.buildfont9--
+
+/load    --load--
+
+/currentobjectformat    --currentobjectformat--
+
+/le    --le--
+
+/ustrokepath    --ustrokepath--
+
+/readhexstring    --readhexstring--
+
+/forall    --forall--
+
+/copyright    (Copyright \(C\) 2023 Artifex Software, Inc.  All rights reserved.)
+
+/known    --known--
+
+/.tempfile    --.tempfile--
+
+/gt    --gt--
+
+/ustroke    --ustroke--
+
+/read    --read--
+
+/string    --string--
+
+/exec    --exec--
+
+/.rfnstring    (/usr/share/ghostscript/10.02.1/Resource/IdiomSet/Pscript5Idiom\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000...)
+
+/NOPLATFONTS    true
+
+/end    --end--
+
+/bind    --bind--
+
+/userparams    -dict-
+
+/status    --status--
+
+/ge    --ge--
+
+/=    {--=only-- (\n) --print--}
+
+/upath    --upath--
+
+/print    --print--
+
+/rsearch    --rsearch--
+
+/localinstancedict    -dict-
+
+/yshow    --yshow--
+
+/currentfile    --currentfile--
+
+/ErrorNames    [/unknownerror /dictfull /dictstackoverflow /dictstackunderflow /execstackoverflow /interrupt /invalidaccess /invalidexit /invalidfileaccess /invalidfont /invalidrestore /ioerror /limitcheck /nocurrentpoint /rangecheck /stackoverflow /stackunderflow /syntaxerror /timeout /typecheck /undefined /undefinedfilename /undefinedresult /unmatchedmark /VMerror /configurationerror /undefinedresource /unregistered /invalidcontext /invalidid /pdf_stackoverflow /pdf_circular_reference]
+
+/.buildfont42    --.buildfont42--
+
+/dictstack    --dictstack--
+
+/renamefile    --renamefile--
+
+/eq    --eq--
+
+/ufill    --ufill--
+
+/search    --search--
+
+/separationimage    {--gsave-- [/Separation /All /DeviceCMYK {--dup-- --dup-- --dup--}] --setcolorspace-- {10 --dict-- --begin-- {1 0} 1 {/ImageType /Decode /DataSource /ImageMatrix /BitsPerComponent /Height /Width} {--exch-- --def--} --forall-- --currentdict-- --end--} --exec-- --image-- --grestore--}
+
+/xyshow    --xyshow--
+
+/dict    --dict--
+
+/srand    --srand--
+
+/.buildfont0    --.buildfont0--
+
+/bitshift    --bitshift--
+
+/AdobeGlyphList    -dict-
+
+/ueofill    --ueofill--
+
+/restore    --restore--
+
+/customcolorimage    {--gsave-- -packedarray- --exec-- --setcolorspace-- {10 --dict-- --begin-- {1 0} 1 {/ImageType /Decode /DataSource /ImageMatrix /BitsPerComponent /Height /Width} {--exch-- --def--} --forall-- --currentdict-- --end--} --exec-- --image-- --grestore--}
+
+/xshow    --xshow--
+
+/countexecstack    --countexecstack--
+
+/currentdict    --currentdict--
+
+/sqrt    --sqrt--
+
+/rootfont    --rootfont--
+
+/and    --and--
+
+/ucache    --ucache--
+
+/grestoreall    --grestoreall--
+
+/flushfile    --flushfile--
+
+/anchorsearch    --anchorsearch--
+
+/composefont    {--.composefontdict-- /Font defineresource}
+
+/setseparationgray    {[/Separation /All /DeviceCMYK {--dup-- --dup-- --dup--}] --setcolorspace-- 1 --exch-- --sub-- --setcolor--}
+
+/glyphshow    --glyphshow--
+
+/.buildfont2    --.buildfont2--
+
+/countdictstack    --countdictstack--
+
+/sin    --sin--
+
+/cshow    --cshow--
+
+/setpacking    --setpacking--
+
+/uappend    --uappend--
+
+/grestore    --grestore--
+
+/flush    --flush--
+
+/setbbox    --setbbox--
+
+/astore    --astore--
+
+/begin    --begin--
+
+/rrand    --rrand--
+
+/filenameforall    --filenameforall--
+
+/packedarray    --packedarray--
+
+/inustroke    --inustroke--
+
+/save    --save--
+
+/fileposition    --fileposition--
+
+/mark    --mark--
+
+/rectstroke    --rectstroke--
+
+/array    --array--
+
+/.startnewjob    -packedarray-
+
+/cleardictstack    --cleardictstack--
+
+/rand    --rand--
+
+/sub    --sub--
+
+/file    --file--
+
+/currentpacking    --currentpacking--
+
+/getuserparam    --getuserparam--
+
+/inufill    --inufill--
+
+/gsave    --gsave--
+
+/.fileposition    --.fileposition--
+
+/counttomark    --counttomark--
+
+/rectfill    --rectfill--
+
+/aload    --aload--
+
+/log    --log--
+
+/roll    --roll--
+
+/inueofill    --inueofill--
+
+/count    --count--
+
+/setcmykoverprint    {4 {--dup-- -1 --eq-- {--pop-- 0} --if-- 4 1 --roll--} --repeat-- --setcmykcolor--}
+
+/rectclip    --rectclip--
+
+/truncate    --truncate--
+
+/ln    --ln--
+
+/pop    --pop--
+
+/deletefile    --deletefile--
+
+/instroke    --instroke--
+
+/echo    --echo--
+
+/cleartomark    --cleartomark--
+
+/setcustomcolor    -packedarray-
+
+/round    --round--
+
+/.LocalInstances    -dict-
+
+/stopped    --stopped--
+
+/exp    --exp--
+
+/findcolorrendering    --findcolorrendering--
+
+/index    --index--
+
+/undef    --undef--
+
+/infill    --infill--
+
+/closefile    --closefile--
+
+/clear    --clear--
+
+/setgstate    --setgstate--
+
+/neg    --neg--
+
+/cos    --cos--
+
+/ifelse    --ifelse--
+
+/>>    -->>--
+
+/ineofill    --ineofill--
+
+/bytesavailable    --bytesavailable--
+
+/gstate    --gstate--
+
+/mul    --mul--
+
+/stop    --stop--
+
+/atan    --atan--
+
+/if    --if--
+
+/usertime    --usertime--
+
+/setcolorscreen    --setcolorscreen--
+
+/findrgbcustomcolor    -packedarray-
+
+/false    false
+
+/currentgstate    --currentgstate--
+
+/mod    --mod--
+
+/writestring    --writestring--
+
+/repeat    --repeat--
+
+/arcsin    --arcsin--
+
+/    {--currentfile-- (%-12345X) --.peekstring-- --pop-- (%-12345X) --eq-- (\004) --cvn-- --load-- --if--}
+
+/exch    --exch--
+
+/setundercolorremoval    --setundercolorremoval--
+
+/%Type11BuildGlyph    -packedarray-
+
+/findcmykcustomcolor    -packedarray-
+
+/true    true
+
+/copy    --copy--
+
+/floor    --floor--
+
+/writehexstring    --writehexstring--
+
+/%ProcessDSCComment    {/ProcessDSCComment --getuserparam-- --dup-- null --eq-- .loadingfont --or-- {--pop-- --pop-- --pop--} {--exec--} --ifelse--}
+
+/]    --]--
+
+/.xlatmap    (TrueType\000\0003.0\000Symbol\0003.1\000Unicode\0003.2\000ShiftJIS\0003.3\000PRC\0003.4\000Big5\0003.5\000Wansung\0003.6\000Johab\0003.10\000UCS-4\000Microtype\000\000*\000FCO_Unicode\000PostScript\000\000*\000Unicode\000Intellifont\000\000*\000FCO_Unicode\000\000)
+
+/.quit    --.quit--
+
+/arccos    --arccos--
+
+/    {}
+
+/    {}
+
+/dup    --dup--
+
+/currentcolorrendering    --currentcolorrendering--
+
+/.knownget    --.knownget--
+
+/setcolortransfer    --setcolortransfer--
+
+/%Type9BuildGlyph    -packedarray-
+
+/xor    --xor--
+
+/null    null
+
+/setstrokeadjust    --setstrokeadjust--
+
+/idiv    --idiv--
+
+/.xlatmap_dict    -dict-
+
+/loop    --loop--
+
+/def    --def--
+
+/setblackgeneration    --setblackgeneration--
+
+/.cid0buildstring    (\000\000\000\000\000\000\000\000\000\000)
+
+/or    --or--
+
+/div    --div--
+
+/write    --write--
+
+/currentstrokeadjust    --currentstrokeadjust--
+
+/[    --mark--
+
+/%ProcessComment    {/ProcessComment --getuserparam-- --dup-- null --eq-- {--pop-- --pop-- --pop--} {--exec--} --ifelse--}
+
+/undefineresource    --undefineresource--
+
+/for    --for--
+
+/putinterval    --putinterval--
+
+/add    --add--
+
+/serialnumber    --serialnumber--
+
+/currentundercolorremoval    --currentundercolorremoval--
+
+/not    --not--
+
+/userdict    -dict-
+
+/ceiling    --ceiling--
+
+/startjob    --startjob--
+
+/put    --put--
+
+/.revisionstring    (10.02.1)
+
+/.dicttomark    --.dicttomark--
+
+/realtime    --realtime--
+
+/currentcolortransfer    --currentcolortransfer--
+
+/ne    --ne--
+
+/ll3dict    -dict-
+
+/.setglobal    --.setglobal--
+
+/setfileposition    --setfileposition--
+
+/setuserparams    --setuserparams--
+
+/length    --length--
+
+/revisiondate    20231101
+
+/.buildfont11    --.buildfont11--
+
+/where    --where--
+
+/currentblackgeneration    --currentblackgeneration--
+
+/.currentpathcontrolstate    --.currentpathcontrolstate--
+
+/.min    --.min--
+
+/level2dict    -dict-
+
+/abs    --abs--
+
+/resetfile    --resetfile--
+
+/.fontstatus    -packedarray-
+
+/setsystemparams    --setsystemparams--
+
+/exit    --exit--
+
+/getinterval    --getinterval--
+
+/revision    10021
+
+/.buildfont10    --.buildfont10--
+
+/%Type42BuildGlyph    -packedarray-
+
+/.activatepathcontrol    --.activatepathcontrol--
+
+/.max    --.max--
+
+/systemdict    -dict-
+
+/readstring    --readstring--
+
+/setdevparams    --setdevparams--
+>>
+
+     <<       % --dictionary-- 
+
+/CurPatternCache    0
+
+/MaxUPathCache    300000
+
+/CurInputDevice    ()
+
+/Revision    10021
+
+/MaxImageBuffer    524288
+
+/JobTimeout    0
+
+/LicenseID    (LN-001)
+
+/CurFontCache    0
+
+/CurScreenStorage    0
+
+/GenericResourcePathSep    (/)
+
+/MaxSourceList    25000
+
+/ByteOrder    true
+
+/CurOutputDevice    ()
+
+/BuildTime    0
+
+/MaxPatternCache    100000
+
+/PageCount    1000
+
+/MaxDisplayAndSourceList    160000
+
+/CurFormCache    0
+
+/MaxFormCache    100000
+
+/%diskGenericResourceDir    (/Resource/)
+
+/DoPrintErrors    false
+
+/MaxFontCache    1000000
+
+/RamSize    4194304
+
+/FontResourceDir    (/usr/share/ghostscript/10.02.1/Resource/Font/)
+
+/WaitTimeout    40
+
+/GenericResourceDir    (/usr/share/ghostscript/10.02.1/Resource/)
+
+/MaxScreenStorage    84000
+
+/CurUPathCache    0
+
+/CurOutlineCache    0
+
+/MaxGlobalVM    9223372036854775807
+
+/MaxOutlineCache    65000
+
+/CurDisplayList    0
+
+/MaxDisplayList    140000
+
+/%diskFontResourceDir    (/Resource/Font/)
+
+/CurSourceList    0
+
+/RealFormat    (IEEE)
+
+/PrinterName    (GPL Ghostscript)
+>>
+
+setsystemparams
+
+
+Found Printer Resources.
+
+IdiomSet Resource List:
+(PPI_CUtils)
+(Pscript5Idiom)
+
+Pattern Resource List:
+
+ColorRendering Resource List:
+(DefaultColorRendering)
+
+OutputDevice Resource List:
+(necp6)
+(imagen)
+(ap3250)
+(ink_cov)
+(lp9300)
+(hpdj320)
+(tiffg32d)
+(bmp16)
+(pngalpha)
+(lp3000c)
+(epl2750)
+(pnm)
+(rinkj)
+(lips4v)
+(cdj890)
+(pdfimage24)
+(npdl)
+(itk24i)
+(appledmp)
+(inkcov)
+(lp9400)
+(hpdj340)
+(tiffg4)
+(bmp16m)
+(pnggray)
+(lp7500)
+(epl5800)
+(pnmraw)
+(rpdl)
+(lj250)
+(cdj970)
+(pdfimage32)
+(oce9050)
+(itk38)
+(atx23)
+(jpeg)
+(lp9500c)
+(hpdj400)
+(tiffgray)
+(bmp256)
+(pngmono)
+(lp7700)
+(epl5900)
+(ppm)
+(samsunggdi)
+(lj3100sw)
+(cdjcolor)
+(pdfimage8)
+(oki182)
+(iwhi)
+(atx24)
+(jpegcmyk)
+(lp9600)
+(hpdj500)
+(tifflzw)
+(bmp32b)
+(pngmonod)
+(lp7900)
+(epl6100)
+(ppmraw)
+(sj48)
+(lj4dith)
+(cdjmono)
+(pgm)
+(oki4w)
+(iwlo)
+(atx38)
+(jpeggray)
+(lp9600s)
+(hpdj500c)
+(tiffpack)
+(bmpgray)
+(ocr)
+(lp8000)
+(epl6200)
+(ps2write)
+(bbox)
+(st800)
+(lj4dithp)
+(cdnj500)
+(pgmraw)
+(okiibm)
+(iwlq)
+(bj10e)
+(mgr4)
+(lp9800c)
+(hpdj510)
+(tiffscaled)
+(bmpmono)
+(hocr)
+(lp8000c)
+(eplcolor)
+(pdfwrite)
+(x11)
+(stcolor)
+(lj5gray)
+(chp2200)
+(pgnm)
+(oprp)
+(jetp3852)
+(bj10v)
+(mgr8)
+(lps4500)
+(hpdj520)
+(tiffscaled24)
+(bmpsep1)
+(pdfocr8)
+(lp8100)
+(eplmono)
+(psdcmyk)
+(x11alpha)
+(t4693d2)
+(lj5mono)
+(cljet5)
+(pgnmraw)
+(opvp)
+(jj100)
+(bj10vh)
+(mgrgray2)
+(lps6500)
+(hpdj540)
+(tiffscaled32)
+(bmpsep8)
+(pdfocr24)
+(lp8200c)
+(eps9high)
+(psdcmyk16)
+(x11cmyk)
+(t4693d4)
+(ljet2p)
+(cljet5c)
+(pkm)
+(paintjet)
+(la50)
+(bj200)
+(mgrgray4)
+(lq850)
+(hpdj550c)
+(tiffscaled4)
+(ccr)
+(pdfocr32)
+(lp8300c)
+(eps9mid)
+(psdcmykog)
+(x11cmyk2)
+(t4693d8)
+(ljet3)
+(cljet5pr)
+(pkmraw)
+(pcl3)
+(la70)
+(bjc600)
+(mgrgray8)
+(lxm3200)
+(hpdj560c)
+(tiffscaled8)
+(cfax)
+(nullpage)
+(lp8300f)
+(epson)
+(psdcmyktags)
+(x11cmyk4)
+(tek4696)
+(ljet3d)
+(coslw2p)
+(pksm)
+(photoex)
+(la75)
+(bjc800)
+(mgrmono)
+(lxm5700m)
+(hpdj600)
+(tiffsep)
+(cif)
+(lp8400f)
+(epsonc)
+(psdcmyktags16)
+(x11cmyk8)
+(uniprint)
+(ljet4)
+(coslwxl)
+(pksmraw)
+(picty180)
+(la75plus)
+(bjc880j)
+(miff24)
+(m8510)
+(hpdj660c)
+(tiffsep1)
+(devicen)
+(lp8500c)
+(escp)
+(psdrgb)
+(x11gray2)
+(xes)
+(ljet4d)
+(declj250)
+(plan)
+(pj)
+(laserjet)
+(bjccmyk)
+(pam)
+(md1xMono)
+(hpdj670c)
+(txtwrite)
+(dfaxhigh)
+(lp8600)
+(escpage)
+(psdrgb16)
+(x11gray4)
+(appleraster)
+(ljet4pjl)
+(deskjet)
+(plan9bm)
+(pjetxl)
+(lbp310)
+(bjccolor)
+(pamcmyk32)
+(md2k)
+(hpdj680c)
+(xcf)
+(dfaxlow)
+(lp8600f)
+(fmlbp)
+(psdrgbtags)
+(x11mono)
+(cups)
+(ljetplus)
+(dj505j)
+(planc)
+(pjxl)
+(lbp320)
+(bjcgray)
+(pamcmyk4)
+(md50Eco)
+(hpdj690c)
+(xpswrite)
+(display)
+(lp8700)
+(fmpr)
+(spotcmyk)
+(x11rg16x)
+(pwgraster)
+(ln03)
+(djet500)
+(plang)
+(pjxl300)
+(lbp8)
+(bjcmono)
+(pbm)
+(md50Mono)
+(hpdj850c)
+(alc1900)
+(docxwrite)
+(lp8800c)
+(fs600)
+(tiff12nc)
+(x11rg32x)
+(urf)
+(lp1800)
+(djet500c)
+(plank)
+(pr1000)
+(lex2050)
+(cdeskjet)
+(pbmraw)
+(md5k)
+(hpdj855c)
+(alc2000)
+(eps2write)
+(lp8900)
+(gdi)
+(tiff24nc)
+(pclm)
+(ijs)
+(lp1900)
+(dl2100)
+(planm)
+(pr1000_4)
+(lex3200)
+(cdj1600)
+(pcx16)
+(mj500c)
+(hpdj870c)
+(alc4000)
+(faxg3)
+(lp9000b)
+(hl1240)
+(tiff32nc)
+(pclm8)
+(png16)
+(lp2000)
+(dnj650c)
+(plib)
+(pr150)
+(lex5700)
+(cdj500)
+(pcx24b)
+(mj6000c)
+(hpdj890c)
+(alc4100)
+(faxg32d)
+(lp9000c)
+(hl1250)
+(tiff48nc)
+(bit)
+(png16m)
+(lp2200)
+(epl2050)
+(plibc)
+(pr201)
+(lex7000)
+(cdj550)
+(pcx256)
+(mj700v2c)
+(hpdjplus)
+(alc8500)
+(faxg4)
+(lp9100)
+(hl7x0)
+(tiff64nc)
+(bitcmyk)
+(png16malpha)
+(lp2400)
+(epl2050p)
+(plibg)
+(pxlcolor)
+(lips2p)
+(cdj670)
+(pcxcmyk)
+(mj8000c)
+(hpdjportable)
+(alc8600)
+(fpng)
+(lp9200b)
+(hpdj1120c)
+(tiffcrle)
+(bitrgb)
+(png256)
+(lp2500)
+(epl2120)
+(plibk)
+(pxlmono)
+(lips3)
+(cdj850)
+(pcxgray)
+(ml600)
+(ibmpro)
+(alc9100)
+(inferno)
+(lp9200c)
+(hpdj310)
+(tiffg3)
+(bitrgbtags)
+(png48)
+(lp2563)
+(epl2500)
+(plibm)
+(r4081)
+(lips4)
+(cdj880)
+(pcxmono)
+
+FormType Resource List:
+1
+
+CIDFont Resource List:
+(CIDFallBack)
+(ArtifexBullet)
+
+HWOptions Resource List:
+
+ImageType Resource List:
+1
+103
+3
+4
+
+Filter Resource List:
+(ASCIIHexDecode)
+(AESDecode)
+(CCITTFaxEncode)
+(BCPDecode)
+(SHA256Encode)
+(PixelDifferenceEncode)
+(.EOFDecode)
+(CCITTFaxDecode)
+(RunLengthDecode)
+(FlateEncode)
+(DCTDecode)
+(PFBDecode)
+(ASCIIHexEncode)
+(TBCPDecode)
+(ArcfourEncode)
+(PNGPredictorEncode)
+(ReusableStreamDecode)
+(BCPEncode)
+(MD5Encode)
+(PixelDifferenceDecode)
+(SubFileDecode)
+(ASCII85Decode)
+(eexecDecode)
+(RunLengthEncode)
+(zlibDecode)
+(JPXDecode)
+(DCTEncode)
+(NullEncode)
+(LZWEncode)
+(TBCPEncode)
+(ArcfourDecode)
+(PNGPredictorDecode)
+(LZWDecode)
+(PWGDecode)
+(ImscaleDecode)
+(FlateDecode)
+(JBIG2Decode)
+(ASCII85Encode)
+(eexecEncode)
+(PSStringEncode)
+(zlibEncode)
+
+Category Resource List:
+(IdiomSet)
+(Pattern)
+(ColorRendering)
+(OutputDevice)
+(FormType)
+(CIDFont)
+(HWOptions)
+(ImageType)
+(Filter)
+(Category)
+(ColorSpace)
+(FunctionType)
+(Halftone)
+(HalftoneType)
+(PatternType)
+(Encoding)
+(Emulator)
+(PDL)
+(SubstCID)
+(ControlLanguage)
+(ProcSet)
+(CIDDecoding)
+(ShadingType)
+(FontType)
+(IODevice)
+(FontSet)
+(Generic)
+(Font)
+(CMap)
+(ColorSpaceFamily)
+(Localization)
+(Decoding)
+(ColorRenderingType)
+(Form)
+(CIDMap)
+(FMapType)
+
+ColorSpace Resource List:
+(sRGB)
+(sRGBICC)
+(sGrayICC)
+(esRGBICC)
+(rommRGBICC)
+(DefaultCMYK)
+(DefaultGray)
+(DefaultRGB)
+(TrivialCMYK)
+(sGray)
+
+FunctionType Resource List:
+2
+3
+0
+
+Halftone Resource List:
+
+HalftoneType Resource List:
+2
+4
+6
+1
+10
+3
+5
+16
+
+PatternType Resource List:
+1
+2
+
+Encoding Resource List:
+(ISOLatin1Encoding)
+(SymbolEncoding)
+(MacExpertEncoding)
+(PDFDocEncoding)
+(MacRomanEncodingForTrueType)
+(StandardEncoding)
+(.GS_extended_SymbolEncoding)
+(MacRomanEncoding)
+(DingbatsEncoding)
+(WinAnsiEncoding)
+(Wingdings)
+(NotDefEncoding)
+(CEEncoding)
+(ExpertEncoding)
+(ExpertSubsetEncoding)
+
+Emulator Resource List:
+(PostScript)
+(PostScriptLevel1)
+(PostScriptLevel2)
+(PostScriptLevel3)
+(PDF)
+
+PDL Resource List:
+
+SubstCID Resource List:
+(Japan1-WMode)
+(CNS1-WMode)
+(GB1-WMode)
+(Korea1-WMode)
+
+ControlLanguage Resource List:
+
+ProcSet Resource List:
+(Explore)
+(MappedCategoryRedefiner)
+(ParseDecoding)
+(ParseCMap_Inverse)
+(BitmapFontInit)
+(FontSetInit)
+(ColorRendering)
+(CIDInit)
+(FontEmulationProcs)
+
+CIDDecoding Resource List:
+
+ShadingType Resource List:
+1
+2
+3
+4
+5
+6
+7
+
+FontType Resource List:
+9
+2
+11
+4
+0
+1
+10
+3
+42
+32
+
+IODevice Resource List:
+(%null%)
+(%os%)
+(%lineedit%)
+(%ram%)
+(%stdout%)
+(%rom%)
+(%Calendar%)
+(%pipe%)
+(%statementedit%)
+(%stdin%)
+(%stderr%)
+
+FontSet Resource List:
+
+Generic Resource List:
+
+Font Resource List:
+Querying operating system for font files...
+(NewCenturySchlbk-Bold)
+(Hershey-Plain-Bold)
+(ArtifexBullet-Identity-H)
+(URWBookman-LightItalic)
+(Arial,Italic)
+(NimbusSansNarrow-Oblique)
+(CIDFallBack-Identity-V)
+(StandardSymbolsPS)
+(Charter-Roman)
+(Calligraphic-Katakana)
+(Hershey-Plain-Triplex)
+(Courier-Oblique)
+(Hershey-Plain-Duplex-Bold)
+(NewCenturySchlbk-Italic)
+(Hershey-Plain-Simplex)
+(URWBookman-Demi)
+(NimbusSansNarrow-Regular)
+(TimesNewRoman,BoldItalic)
+(CIDFallBack-Identity-H)
+(P052-Roman)
+(CharterBT-BoldItalic)
+(Calligraphic-Hiragana)
+(Hershey-Plain-Duplex-Italic)
+(Bookman-LightItalic)
+(Hershey-Gothic-Italian-Oblique)
+(NewCenturySchlbk-Roman)
+(Hershey-Plain)
+(Times-BoldItalic)
+(Arial,Bold)
+(URWBookman-DemiItalic)
+(NimbusSansNarrow-BoldOblique)
+(P052-Italic)
+(CharterBT-Bold)
+(URWGroteskT-Bold)
+(Symbol)
+(Hershey-Plain-Duplex)
+(Bookman-Light)
+(Hershey-Gothic-Italian-Bold)
+(Helvetica-Narrow-BoldOblique)
+(Hershey-Greek-Simplex)
+(Times-Bold)
+(URWGothic-Demi)
+(NimbusSansNarrow-Bold)
+(TimesNewRoman,Italic)
+(P052-Bold)
+(CharterBT-Italic)
+(URWAntiquaT-RegularCondensed)
+(Hershey-Gothic-Italian)
+(Bookman-DemiItalic)
+(Hershey-Gothic-German-Oblique)
+(Courier)
+(Helvetica-Narrow-Bold)
+(Hershey-Greek-Complex)
+(Times-Italic)
+(Arial)
+(URWGothic-DemiOblique)
+(NimbusSans-BoldItalic)
+(P052-BoldItalic)
+(CharterBT-Roman)
+(Utopia-BoldItalic)
+(Hershey-Gothic-German)
+(Bookman-Demi)
+(Hershey-Gothic-German-Bold)
+(Helvetica-Narrow-Oblique)
+(Hershey-Script-Simplex-Oblique)
+(Times-Roman)
+(Hershey-Symbol)
+(URWGothic-Book)
+(NimbusSans-Bold)
+(TimesNewRoman,Bold)
+(C059-Roman)
+(D050000L)
+(Utopia-Bold)
+(Hershey-Gothic-English)
+(AvantGarde-DemiOblique)
+(Hershey-Gothic-English-SemiBold)
+(Helvetica-Narrow)
+(Hershey-Script-Simplex-Bold)
+(Palatino-BoldItalic)
+(Hershey-Plain-Simplex-Oblique)
+(URWGothic-BookOblique)
+(NimbusMonoPS-Italic)
+(C059-Italic)
+(Z003-MediumItalic)
+(Utopia-Italic)
+(ZapfChancery-MediumItalic)
+(Cyrillic-Italic)
+(AvantGarde-Demi)
+(Hershey-Gothic-English-Oblique)
+(Helvetica-BoldOblique)
+(Hershey-Script-Complex-Oblique)
+(Palatino-Bold)
+(ZapfDingbats)
+(Hershey-Plain-Simplex-Bold-Oblique)
+(NimbusMonoPS-Regular)
+(TimesNewRoman)
+(C059-BdIta)
+(NimbusRoman-Regular)
+(Utopia-Regular)
+(Cyrillic-Regular)
+(AvantGarde-BookOblique)
+(Hershey-Gothic-English-Bold)
+(Helvetica-Bold)
+(Hershey-Script-Complex-Bold)
+(Palatino-Italic)
+(Hershey-Plain-Simplex-Bold)
+(NimbusMonoPS-BoldItalic)
+(C059-Bold)
+(NimbusRoman-Italic)
+(Charter-BoldItalic)
+(Helvetica)
+(Cyrillic)
+(AvantGarde-Book)
+(Hershey-Script-Simplex)
+(Helvetica-Oblique)
+(Hershey-Plain-Triplex-Bold-Italic)
+(Palatino-Roman)
+(Hershey-Plain-Oblique)
+(NimbusMonoPS-Bold)
+(Arial,BoldItalic)
+(NimbusSans-Italic)
+(NimbusRoman-Bold)
+(Charter-Bold)
+(Shareware-Cyrillic-Italic)
+(Hershey-Script-Complex)
+(Courier-BoldOblique)
+(Hershey-Plain-Triplex-Bold)
+(NewCenturySchlbk-BoldItalic)
+(Hershey-Plain-Bold-Oblique)
+(URWBookman-Light)
+(NimbusSans-Regular)
+(NimbusRoman-BoldItalic)
+(Charter-Italic)
+(Shareware-Cyrillic-Regular)
+(Hershey-Plain-Triplex-Italic)
+(Courier-Bold)
+(Hershey-Plain-Duplex-Bold-Italic)
+(ArtifexBullet-Identity-V)
+
+CMap Resource List:
+(GBK-EUC-H)
+(Adobe-Japan1-0)
+(ETenms-B5-V)
+(UniJIS-UCS2-V)
+(Adobe-GB1-0)
+(KSCms-UHC-H)
+(Adobe-CNS1-7)
+(Hojo-EUC-H)
+(90pv-RKSJ-V)
+(NWP-V)
+(KSC-V)
+(UniKS-UTF16-V)
+(HKscs-B5-V)
+(KSC-EUC-H)
+(Adobe-Japan1-3)
+(GBpc-EUC-V)
+(78-EUC-V)
+(HKm314-B5-H)
+(UniJIS-UCS2-H)
+(ETHK-B5-H)
+(V)
+(KSCms-UHC-V)
+(UniJISPro-UCS2-HW-V)
+(UniHojo-UCS2-V)
+(HKgccs-B5-H)
+(Hojo-V)
+(Adobe-CNS1-2)
+(B5-H)
+(Add-RKSJ-H)
+(HKm314-B5-V)
+(GBT-EUC-V)
+(Adobe-CNS1-4)
+(GBK2K-H)
+(Add-V)
+(90msp-RKSJ-V)
+(UniCNS-UTF32-H)
+(UniJIS-UTF16-H)
+(UniJIS-UTF16-V)
+(UniHojo-UTF8-H)
+(Hojo-H)
+(UniJISX0213-UTF32-H)
+(UniCNS-UTF16-V)
+(UniCNS-UCS2-V)
+(90ms-RKSJ-V)
+(KSC-Johab-H)
+(UniJIS2004-UTF16-V)
+(UniJISX02132004-UTF32-V)
+(UniHojo-UTF32-V)
+(Identity-UTF16-H)
+(CNS1-H)
+(B5pc-V)
+(78-H)
+(HKscs-B5-H)
+(Ext-V)
+(H)
+(UniCNS-UTF16-H)
+(UniCNS-UCS2-H)
+(GBT-H)
+(Add-RKSJ-V)
+(90ms-RKSJ-H)
+(KSCms-UHC-HW-H)
+(Adobe-CNS1-3)
+(UniJIS2004-UTF16-H)
+(EUC-H)
+(KSC-Johab-V)
+(UniCNS-UTF8-H)
+(UniJIS-UTF32-V)
+(Adobe-GB1-3)
+(UniJISPro-UTF8-V)
+(UniKS-UTF8-V)
+(KSCpc-EUC-V)
+(90pv-RKSJ-H)
+(ETenms-B5-H)
+(UniJIS2004-UTF32-V)
+(Katakana)
+(HKdla-B5-V)
+(UniJIS-UTF32-H)
+(GBT-V)
+(Adobe-CNS1-5)
+(GBTpc-EUC-V)
+(GB-EUC-H)
+(Adobe-Japan1-2)
+(UniGB-UTF32-H)
+(Identity-V)
+(CNS-EUC-V)
+(Add-H)
+(CNS1-V)
+(EUC-V)
+(Hiragana)
+(GBKp-EUC-V)
+(Adobe-Korea1-1)
+(RKSJ-V)
+(UniJISX02132004-UTF32-H)
+(UniCNS-UTF8-V)
+(UniHojo-UTF16-H)
+(Adobe-CNS1-1)
+(ETen-B5-V)
+(UniJISX0213-UTF32-V)
+(GBpc-EUC-H)
+(GB-V)
+(Identity-H)
+(NWP-H)
+(KSCms-UHC-HW-V)
+(Adobe-Japan1-1)
+(UniJISPro-UCS2-V)
+(UniHojo-UTF16-V)
+(GBK2K-V)
+(Hojo-EUC-V)
+(Ext-RKSJ-H)
+(UniGB-UTF8-H)
+(Adobe-GB1-2)
+(ETen-B5-H)
+(HKgccs-B5-V)
+(83pv-RKSJ-H)
+(UniGB-UCS2-V)
+(UniHojo-UCS2-H)
+(Adobe-Japan1-5)
+(UniJIS2004-UTF8-V)
+(UniGB-UTF32-V)
+(Adobe-Japan1-6)
+(Ext-RKSJ-V)
+(78-V)
+(RKSJ-H)
+(78ms-RKSJ-V)
+(UniGB-UTF8-V)
+(UniGB-UTF16-H)
+(Adobe-CNS1-6)
+(78-EUC-H)
+(UniGB-UCS2-H)
+(HKm471-B5-V)
+(ETHK-B5-V)
+(WP-Symbol)
+(Adobe-GB1-1)
+(UniCNS-UTF32-V)
+(90msp-RKSJ-H)
+(UniKS-UCS2-V)
+(Adobe-Japan2-0)
+(UniGB-UTF16-V)
+(GBT-EUC-H)
+(UniKS-UTF32-V)
+(GB-H)
+(CNS2-V)
+(78-RKSJ-V)
+(UniJIS-UTF8-H)
+(Adobe-CNS1-0)
+(UniKS-UTF8-H)
+(UniHojo-UTF8-V)
+(Roman)
+(Adobe-Korea1-2)
+(CNS2-H)
+(Adobe-Japan1-4)
+(78ms-RKSJ-H)
+(UniKS-UCS2-H)
+(GBTpc-EUC-H)
+(GBKp-EUC-H)
+(Adobe-Korea1-0)
+(GB-EUC-V)
+(HKdla-B5-H)
+(UniKS-UTF16-H)
+(CNS-EUC-H)
+(HKdlb-B5-H)
+(UniJIS-UTF8-V)
+(UniKS-UTF32-H)
+(GBK-EUC-V)
+(Adobe-GB1-5)
+(Adobe-GB1-4)
+(HKm471-B5-H)
+(HKdlb-B5-V)
+(UniJIS-UCS2-HW-V)
+(78-RKSJ-H)
+(UniJIS2004-UTF32-H)
+(KSCpc-EUC-H)
+(UniJIS2004-UTF8-H)
+(UniHojo-UTF32-H)
+(KSC-H)
+(Hankaku)
+(B5-V)
+(Ext-H)
+(B5pc-H)
+(UniJIS-UCS2-HW-H)
+(KSC-EUC-V)
+
+ColorSpaceFamily Resource List:
+(CIEBasedDEFG)
+(DeviceGray)
+(Pattern)
+(DeviceN)
+(CIEBasedA)
+(DeviceRGB)
+(ICCBased)
+(Separation)
+(CIEBasedABC)
+(DeviceCMYK)
+(DevicePixel)
+(CIEBasedDEF)
+(Indexed)
+
+Localization Resource List:
+
+Decoding Resource List:
+(Unicode)
+(Latin1)
+(FCO_Wingdings)
+(FCO_Unicode)
+(StandardEncoding)
+(FCO_Dingbats)
+(FCO_Symbol)
+
+ColorRenderingType Resource List:
+1
+101
+
+Form Resource List:
+
+CIDMap Resource List:
+
+FMapType Resource List:
+9
+2
+4
+6
+8
+3
+5
+7
+
+
+End of Resources.
+
+(%null%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%os%)
+	<<
+	/HasNames	true
+	/Removable	false
+	/BlockSize	1024
+	/Free	1464843
+	/Writeable	true
+	/Mounted	true
+	/Type	/FileSystem
+	/SearchOrder	2
+	/InitializeAction	0
+	/LogicalSize	1953125
+	/Searchable	true
+	>> setdevparams
+
+
+(%lineedit%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%ram%)
+	<<
+	/HasNames	true
+	/Removable	false
+	/BlockSize	1024
+	/Free	2000000
+	/Writeable	true
+	/Mounted	true
+	/Type	/FileSystem
+	/SearchOrder	1
+	/InitializeAction	0
+	/LogicalSize	2000000
+	/Searchable	true
+	>> setdevparams
+
+
+(%stdout%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%rom%)
+	<<
+	/Type	/FileSystem
+	>> setdevparams
+
+
+(%Calendar%)
+	<<
+	/Weekday	5
+	/Minute	29
+	/Running	true
+	/Year	2024
+	/Day	12
+	/Hour	17
+	/Second	30
+	/Type	/Special
+	/Month	1
+	>> setdevparams
+
+
+(%pipe%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%statementedit%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%stdin%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+
+(%stderr%)
+	<<
+	/Type	/Special
+	>> setdevparams
+
+     <<       % --dictionary-- 
+
+/BitsPerPixel    24
+
+/LastPage    0
+
+/GrayDetection    false
+
+/UseCIEColor    false
+
+/PostRenderProfile    ()
+
+/ImageBlackPt    8
+
+/MaxPatternBitmap    0
+
+/WindowID    0
+
+/PageCount    0
+
+/Install    {--.callinstall--}
+
+/FirstPage    0
+
+/.LockSafetyParams    false
+
+/DeviceGrayToK    true
+
+/ProofProfile    ()
+
+/EndPage    {--.callendpage--}
+
+/VectorBlackPt    8
+
+/AntidropoutDownscaler    false
+
+/FILTERVECTOR    false
+
+/ColorValues    16777216
+
+/Policies     <<       % --dictionary-- 
+
+/PolicyReport    {--dup-- /.LockSafetyParams --known-- {/setpagedevice --.systemvar-- /invalidaccess signalerror} --if-- --pop--}
+
+/PageSize    0
+
+/PolicyNotFound    1
+>>
+
+
+/Separations    false
+
+/.MediaSize    [611.092407 791.475037]
+
+/TextICCProfile    ()
+
+/BlackPtComp    8
+
+/GraphicsAlphaBits    4
+
+/FILTERTEXT    false
+
+/Colors    3
+
+/ProcessColorModel    /DeviceRGB
+
+/ImageICCProfile    ()
+
+/BeginPage    {--.callbeginpage--}
+
+/TextIntent    8
+
+/TextAlphaBits    4
+
+/FILTERIMAGE    false
+
+/PageOffset    [0 0]
+
+/PageUsesTransparency    false
+
+/VectorICCProfile    ()
+
+/GrayValues    256
+
+/ImageIntent    8
+
+/.IgnoreNumCopies    false
+
+/NupControl    ()
+
+/Margins    [0.0 0.0]
+
+/PreBandThreshold    false
+
+/BlueValues    256
+
+/VectorIntent    8
+
+/HWResolution    [78.2336731 78.2336731]
+
+/.HWMargins    [0.0 0.0 0.0 0.0]
+
+/BufferSpace    4000000
+
+/BlackThresholdC    3.0
+
+/GreenValues    256
+
+/ColorAccuracy    2
+
+/TextKPreserve    8
+
+/BandWidth    0
+
+/OutputAttributes     <<       % --dictionary-- 
+
+/0     <<       % --dictionary-- 
+>>
+
+>>
+
+
+/LeadingEdge    null
+
+/Overprint    /enable
+
+/PageDeviceName    null
+
+/BlackThresholdL    90.0
+
+/RedValues    256
+
+/RenderIntent    8
+
+/ImageKPreserve    8
+
+/PageSize    [611.092407 791.475037]
+
+/BandHeight    0
+
+/InputAttributes     <<       % --dictionary-- 
+
+/59     <<       % --dictionary-- 
+
+/PageSize    [499 709]
+>>
+
+
+/36     <<       % --dictionary-- 
+
+/PageSize    [2835 4008]
+>>
+
+
+/13     <<       % --dictionary-- 
+
+/PageSize    [595 842]
+>>
+
+
+/72     <<       % --dictionary-- 
+
+/PageSize    [612 792]
+>>
+
+
+/49     <<       % --dictionary-- 
+
+/PageSize    [323 459]
+>>
+
+
+/26     <<       % --dictionary-- 
+
+/PageSize    [648 864]
+>>
+
+
+/3     <<       % --dictionary-- 
+
+/PageSize    [792 1224]
+>>
+
+
+/62     <<       % --dictionary-- 
+
+/PageSize    [2064 2920]
+>>
+
+
+/39     <<       % --dictionary-- 
+
+/PageSize    [1001 1417]
+>>
+
+
+/16     <<       % --dictionary-- 
+
+/PageSize    [297 420]
+>>
+
+
+/75     <<       % --dictionary-- 
+
+/PageSize    [0 0 524287 524287]
+>>
+
+
+/52     <<       % --dictionary-- 
+
+/PageSize    [283 420]
+>>
+
+
+/29     <<       % --dictionary-- 
+
+/PageSize    [1728 2592]
+>>
+
+
+/6     <<       % --dictionary-- 
+
+/PageSize    [2448 3168]
+>>
+
+
+/65     <<       % --dictionary-- 
+
+/PageSize    [729 1032]
+>>
+
+
+/42     <<       % --dictionary-- 
+
+/PageSize    [354 499]
+>>
+
+
+/19     <<       % --dictionary-- 
+
+/PageSize    [105 148]
+>>
+
+
+/55     <<       % --dictionary-- 
+
+/PageSize    [2004 2835]
+>>
+
+
+/32     <<       % --dictionary-- 
+
+/PageSize    [864 1296]
+>>
+
+
+/9     <<       % --dictionary-- 
+
+/PageSize    [1684 2384]
+>>
+
+
+/68     <<       % --dictionary-- 
+
+/PageSize    [1224 792]
+>>
+
+
+/45     <<       % --dictionary-- 
+
+/PageSize    [1298 1837]
+>>
+
+
+/22     <<       % --dictionary-- 
+
+/PageSize    [1224 1585]
+>>
+
+
+/58     <<       % --dictionary-- 
+
+/PageSize    [709 1001]
+>>
+
+
+/35     <<       % --dictionary-- 
+
+/PageSize    [2592 3456]
+>>
+
+
+/12     <<       % --dictionary-- 
+
+/PageSize    [842 1191]
+>>
+
+
+/71     <<       % --dictionary-- 
+
+/PageSize    [612 792]
+>>
+
+
+/48     <<       % --dictionary-- 
+
+/PageSize    [459 649]
+>>
+
+
+/25     <<       % --dictionary-- 
+
+/PageSize    [2016 2880]
+>>
+
+
+/2     <<       % --dictionary-- 
+
+/PageSize    [612 792]
+>>
+
+
+/61     <<       % --dictionary-- 
+
+/PageSize    [2920 4127]
+>>
+
+
+/38     <<       % --dictionary-- 
+
+/PageSize    [1417 2004]
+>>
+
+
+/15     <<       % --dictionary-- 
+
+/PageSize    [420 595]
+>>
+
+
+/74     <<       % --dictionary-- 
+
+/PageSize    [792 1224]
+>>
+
+
+/51     <<       % --dictionary-- 
+
+/PageSize    [612 936]
+>>
+
+
+/28     <<       % --dictionary-- 
+
+/PageSize    [1296 1728]
+>>
+
+
+/5     <<       % --dictionary-- 
+
+/PageSize    [1585 2448]
+>>
+
+
+/64     <<       % --dictionary-- 
+
+/PageSize    [1032 1460]
+>>
+
+
+/41     <<       % --dictionary-- 
+
+/PageSize    [499 709]
+>>
+
+
+/18     <<       % --dictionary-- 
+
+/PageSize    [148 210]
+>>
+
+
+/54     <<       % --dictionary-- 
+
+/PageSize    [2835 4008]
+>>
+
+
+/31     <<       % --dictionary-- 
+
+/PageSize    [648 864]
+>>
+
+
+/8     <<       % --dictionary-- 
+
+/PageSize    [2384 3370]
+>>
+
+
+/67     <<       % --dictionary-- 
+
+/PageSize    [363 516]
+>>
+
+
+/44     <<       % --dictionary-- 
+
+/PageSize    [1837 2599]
+>>
+
+
+/21     <<       % --dictionary-- 
+
+/PageSize    [792 1224]
+>>
+
+
+/57     <<       % --dictionary-- 
+
+/PageSize    [1001 1417]
+>>
+
+
+/34     <<       % --dictionary-- 
+
+/PageSize    [1728 2592]
+>>
+
+
+/11     <<       % --dictionary-- 
+
+/PageSize    [1191 1684]
+>>
+
+
+/70     <<       % --dictionary-- 
+
+/PageSize    [612 792]
+>>
+
+
+/47     <<       % --dictionary-- 
+
+/PageSize    [649 918]
+>>
+
+
+/24     <<       % --dictionary-- 
+
+/PageSize    [2448 3168]
+>>
+
+
+/1     <<       % --dictionary-- 
+
+/PageSize    [792 1224]
+>>
+
+
+/60     <<       % --dictionary-- 
+
+/PageSize    [354 499]
+>>
+
+
+/37     <<       % --dictionary-- 
+
+/PageSize    [2004 2835]
+>>
+
+
+/14     <<       % --dictionary-- 
+
+/PageSize    [595 842]
+>>
+
+
+/73     <<       % --dictionary-- 
+
+/PageSize    [595 792]
+>>
+
+
+/50     <<       % --dictionary-- 
+
+/PageSize    [612 936]
+>>
+
+
+/27     <<       % --dictionary-- 
+
+/PageSize    [864 1296]
+>>
+
+
+/4     <<       % --dictionary-- 
+
+/PageSize    [1224 1585]
+>>
+
+
+/63     <<       % --dictionary-- 
+
+/PageSize    [1460 2064]
+>>
+
+
+/40     <<       % --dictionary-- 
+
+/PageSize    [709 1001]
+>>
+
+
+/17     <<       % --dictionary-- 
+
+/PageSize    [210 297]
+>>
+
+
+/53     <<       % --dictionary-- 
+
+/PageSize    [396 612]
+>>
+
+
+/30     <<       % --dictionary-- 
+
+/PageSize    [2592 3456]
+>>
+
+
+/7     <<       % --dictionary-- 
+
+/PageSize    [2016 2880]
+>>
+
+
+/66     <<       % --dictionary-- 
+
+/PageSize    [516 729]
+>>
+
+
+/43     <<       % --dictionary-- 
+
+/PageSize    [2599 3677]
+>>
+
+
+/20     <<       % --dictionary-- 
+
+/PageSize    [612 792]
+>>
+
+
+/56     <<       % --dictionary-- 
+
+/PageSize    [1417 2004]
+>>
+
+
+/33     <<       % --dictionary-- 
+
+/PageSize    [1296 1728]
+>>
+
+
+/10     <<       % --dictionary-- 
+
+/PageSize    [73 105]
+>>
+
+
+/69     <<       % --dictionary-- 
+
+/PageSize    [612 1008]
+>>
+
+
+/46     <<       % --dictionary-- 
+
+/PageSize    [918 1298]
+>>
+
+
+/23     <<       % --dictionary-- 
+
+/PageSize    [1585 2448]
+>>
+
+
+/0     <<       % --dictionary-- 
+
+/PageSize    [611.092407 791.475037]
+>>
+
+>>
+
+
+/BlackVector    false
+
+/ICCOutputColors    ()
+
+/OutputDevice    /x11alpha
+
+/VectorKPreserve    8
+
+/BandBufferSpace    0
+
+/MaxTempImage    5000
+
+/ImagingBBox    null
+
+/DisablePageHandler    false
+
+/HWSize    [664 860]
+
+/BlackText    false
+
+/%MediaSource    0
+
+/DeviceLinkProfile    ()
+
+/InterpolateControl    1
+
+/Name    (x11alpha)
+
+/KPreserve    8
+
+/MaxBitmap    50000000
+
+/SeparationColorNames    []
+
+/MaxTempPixmap    20000
+
+/OutputICCProfile    (default_rgb.icc)
+
+/PageList    ()
+
+/UseFastColor    false
+
+/%MediaDestination    0
+
+/BlendColorProfile    ()
+
+/NumCopies    null
+
+/TextBlackPt    8
+
+/PageUsesOverprint    false
+
+/MaxSeparations    3
+
+/.IsPageDevice    true
+>>
+
+setpagedevice
+
+     <<       % --dictionary-- 
+
+/LabProfile    (lab.icc)
+
+/IdiomRecognition    true
+
+/VMReclaim    0
+
+/DefaultCMYKProfile    (default_cmyk.icc)
+
+/MaxOpStack    300000
+
+/JobName    ()
+
+/PermitFileReading    [(*)]
+
+/OverrideICC    false
+
+/ProcessDSCComment    {/.pdf_hook_DSC_Creator --pop-- -dict- [{-packedarray- --exec-- {{--dup-- (%%BeginICCProfile) --anchorsearch-- {--pop-- --pop-- DEBUG {(.ProcessICCcomment found %%BeginICCProfile) --print-- --flush--} --if-- 1 --index-- 0 (%%EndICCProfile) /SubFileDecode --filter-- --mark-- {--counttomark-- 1 --add-- --index-- 64000 --string-- --readhexstring-- --not-- {--exit--} --if--} --loop-- --]-- --exch-- --closefile-- --mark-- /AsyncRead true --.dicttomark-- /ReusableStreamDecode --filter-- --dup-- 16 --setfileposition-- --dup-- (1234) --readstring-- --pop-- 1 --index-- 0 --setfileposition-- -dict- --exch-- --.knownget-- {3 --dict-- --begin-- /Alternate {0 /DeviceGray 0 /DeviceRGB /DeviceCMYK} 2 --index-- --get-- --def-- /N --exch-- --def-- /DataSource --exch-- --def-- --mark-- /ICCBased --currentdict-- --]-- --end-- {--setcolorspace--} --stopped-- {--pop-- QUIET --not-- {(   *** Unable to load ICC profile from PostScript DSC comments ***) = --flush--} --if--} --if--} {--pop--} --ifelse--} {--pop--} --ifelse--} --exec-- {pop pop} --exec--} --exec--}] {0 --get-- --dup-- null --ne-- {4 --copy-- --exch-- --pop-- --exec-- --pop--} {--pop--} --ifelse-- 3 -1 --roll-- --pop-- 20 --.localvmdict-- 1 --index-- {3 --copy-- --put-- --pop-- --pop--} --forall-- 3 -1 --roll-- --.parse_dsc_comments-- 1 --index-- --.pdf_hook_DSC_Creator-- --exec-- --dup-- /NOP --ne-- 2 --index-- --length-- 1 --gt-- --or-- {PDFWRDEBUG {(**** DSC comment: ) --print-- --dup-- {==only (\n) --print--} --exec-- 1 --index-- === --flush--} --if-- --exch-- --mark-- 4 1 --roll-- {3 --index-- 2 --index-- --known-- {--pop-- --pop--} {.pdfcvs 4 -2 --roll--} --ifelse--} --forall-- --exch-- --pop-- --counttomark-- --.localvmarray-- --astore-- --mark-- /DSC 3 -1 --roll-- .pdfputparams --dup-- --type-- /booleantype --ne-- {/DSC .pdfparamerror} {--cleartomark--} --ifelse--} {--pop-- --pop-- --pop--} --ifelse--} --exec--}
+
+/JobTimeout    0
+
+/AccurateScreens    false
+
+/MaxFormItem    100000
+
+/HalftoneMode    0
+
+/SourceObjectICC    ()
+
+/MinScreenLevels    1
+
+/ICCProfilesDir    (/usr/share/ghostscript/10.02.1/iccprofiles/)
+
+/MaxExecStack    5000
+
+/MaxUPathItem    0
+
+/DefaultRGBProfile    (default_rgb.icc)
+
+/MinFontCompress    1000
+
+/PermitFileControl    [(*)]
+
+/RenderTTNotdef    true
+
+/MaxScreenItem    48000
+
+/VMThreshold    8000000
+
+/GridFitTT    1
+
+/DeviceNProfile    ()
+
+/WaitTimeout    0
+
+/NamedProfile    ()
+
+/MaxDictStack    500
+
+/DefaultGrayProfile    (default_gray.icc)
+
+/MaxSuperScreen    1016
+
+/MaxFontItem    10000
+
+/PermitFileWriting    [(*)]
+
+/LockFilePermissions    false
+
+/MaxPatternItem    20000
+
+/ProcessComment    null
+
+/MaxLocalVM    9223372036854775807
+
+/AlignToPixels    0
+>>
+
+setuserparams
+
+
+ ***** internaldict: *****
+
+     <<       % --dictionary-- 
+
+/CCRun    {--dup-- --type-- /dicttype --eq-- {--dup-- 4 --index-- /Private --.knownget-- {--ne--} {--pop-- true} --ifelse-- {--.currentglobal-- false --.setglobal-- 10 --dict-- --exch-- --.setglobal-- --begin-- /Private --exch-- --def-- /FontType 1 --def-- /FontMatrix 3 --index-- /FontMatrix --get-- --def-- /Encoding 3 --index-- /Encoding --.knownget-- --not-- {StandardEncoding} --if-- --def-- /FontBBox 3 --index-- /FontBBox --.knownget-- --not-- {{0 0 0 0}} --if-- --def-- /PaintType 0 --def-- /CharStrings 1 --dict-- --dup-- /.notdef () --put-- --def-- 3 -1 --roll-- --pop-- () --currentdict-- --end-- .buildfont1 --exch-- --pop-- 3 1 --roll--} {--pop--} --ifelse--} --if-- 1 --index-- --dup-- --type-- /integertype --eq-- {3 --index-- /Encoding --get-- --exch-- --get--} --if-- --exch-- --.type1execchar--}
+
+/.delayed_init_queue     <<       % --dictionary-- 
+
+/1010    {/PDFSETTINGS --where-- {--pop-- /PDFSETTINGS --load--} {/ForOPDFRead /GetDeviceParam --.special_op-- {--exch-- --pop-- {/PSL2Printer} {/default} --ifelse--} {/default} --ifelse--} --ifelse-- .distillersettings --exch-- --get-- --dup-- --length-- .distillercommon --length-- --add-- --dict-- --begin-- .distillercommon 2 {{systemdict 2 --index-- --known-- {--pop-- --pop--} {--def--} --ifelse--} --forall--} --repeat-- /ForOPDFRead /GetDeviceParam --.special_op-- {--exch-- --pop-- --not-- {systemdict /PDFX --known-- systemdict /PDFA --known-- --or-- {/DSCEncoding --where-- {/DSCEncoding --get-- .make_DSC_translation_table /DSCEncodingToUnicode --exch-- --def--} --if--} --if--} --if--} --if-- --currentdict-- --end-- --.setdistillerparams-- .distillerdevice null false --mark-- --.putdeviceparams-- --dup-- --type-- /booleantype --eq-- --not-- {--cleartomark-- --pop--} --if-- --pop-- --pop--}
+
+/3000    {--currentuserparams-- /ProcessDSCComment --.knownget-- {--dup-- --type-- /arraytype --eq-- {0 --get-- /.pdf_hook_DSC_Creator --eq-- {false} {true} --ifelse--} {true} --ifelse--} {true} --ifelse-- {--.currentglobal-- true --setshared-- 2 --dict-- --dup-- --.initialize_dsc_parser-- --readonly-- --currentuserparams-- /ProcessDSCComment --get-- 1 --array-- --astore-- /.pdf_hook_DSC_Creator /pop --load-- 4 2 --roll-- {0 --get-- --dup-- null --ne-- {4 --copy-- --exch-- --pop-- --exec-- --pop--} {--pop--} --ifelse-- 3 -1 --roll-- --pop-- 20 --.localvmdict-- 1 --index-- {3 --copy-- --put-- --pop-- --pop--} --forall-- 3 -1 --roll-- --.parse_dsc_comments-- 1 --index-- --.pdf_hook_DSC_Creator-- --exec-- --dup-- /NOP --ne-- 2 --index-- --length-- 1 --gt-- --or-- {PDFWRDEBUG {(**** DSC comment: ) --print-- --dup-- {==only (\n) --print--} --exec-- 1 --index-- === --flush--} --if-- --exch-- --mark-- 4 1 --roll-- {3 --index-- 2 --index-- --known-- {--pop-- --pop--} {.pdfcvs 4 -2 --roll--} --ifelse--} --forall-- --exch-- --pop-- --counttomark-- --.localvmarray-- --astore-- --mark-- /DSC 3 -1 --roll-- .pdfputparams --dup-- --type-- /booleantype --ne-- {/DSC .pdfparamerror} {--cleartomark--} --ifelse--} {--pop-- --pop-- --pop--} --ifelse--} /exec --load-- 6 --array-- --astore-- --cvx-- --readonly-- --mark-- /ProcessDSCComment 3 -1 --roll-- -->>-- --setuserparams-- --setshared--} --if--}
+
+/1000    {/WantsToUnicode /GetDeviceParam --.special_op-- {--exch-- --pop--} {false} --ifelse-- systemdict /ProvideUnicode --.knownget-- --not-- {false} --if-- --or-- {--.currentglobal-- true --setshared-- systemdict /.setupUnicodeDecoder --known-- {/Unicode /Decoding --resourcestatus-- {--pop-- --pop-- /Unicode /Decoding --findresource-- --.setupUnicodeDecoder--} {QUIET --not-- {(WARNING: /Unicode /Decoding resource is not accessible but it is useful for generating ToUnicode CMap.) =} --if--} --ifelse--} --if-- --setshared--} --if--}
+
+/2000    {/ForOPDFRead /GetDeviceParam --.special_op-- {--pop-- --pop-- --newpath-- --fill--} --if--}
+>>
+
+
+/setweightvector    --setweightvector--
+
+/.execute_scheduled_inits    {2 --dict-- --begin-- /.newdelayed_init_queue --mark-- 1183615869 --internaldict-- /.delayed_init_queue --get-- {} --forall-- --.dicttomark-- --def-- {0 null .newdelayed_init_queue {3 --index-- 2 --index-- --lt-- {4 2 --roll--} --if-- --pop-- --pop--} --forall-- --exch-- .newdelayed_init_queue --exch-- undef --dup-- null --eq-- {--pop-- --exit--} --if-- --exec--} --loop-- --currentdict-- /.newdelayed_init_queue undef --end--}
+>>
+
+GS>
